@@ -1,0 +1,7 @@
+bin
+venv
+.DS_Store
+.exe
+.o
+.vscode
+.idea
