@@ -15,7 +15,7 @@ Ricardo Frohlich da Silva - https://github.com/ricardosma
 Front-end - Deivson Morim Pasa<br>
 Back-end - Alexandre Zamberlan e Ricardo Frohlich da Silva
 
-## Horário
+## Horário - 19h às 22h - TEAMS
 Segundas  Deivson<br>
 Terças    Alexandre<br>
 Quartas   Ricardo<br>
