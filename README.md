@@ -4,7 +4,7 @@ Curso de capacitação da UFN para formação na Tecnologia .Net
 
 ## Professores
 
-Alexandre Zamberlan
+Alexandre Zamberlan - https://github.com/alexandrezamberlan
 
 Deivson Morim Pasa - https://github.com/dmpasa
 
