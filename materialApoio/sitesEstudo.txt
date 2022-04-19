@@ -1,3 +1,5 @@
 Tutorial C# - https://www.w3schools.com/cs/index.php
 
+Tutorial Git - https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
 Tutorial SQL - https://www.w3schools.com/sql/
