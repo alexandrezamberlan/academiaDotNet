@@ -12,12 +12,12 @@ Ricardo Frohlich da Silva - https://github.com/ricardosma
 
 
 ## Assuntos
-Front-end - Deivson Morim Pasa
+Front-end - Deivson Morim Pasa<br>
 Back-end - Alexandre Zamberlan e Ricardo Frohlich da Silva
 
 ## Horário
 Segundas  Deivson<br>
-Terças    Alexandre
-Quartas   Ricardo
-Quintas   Alexandre
-Sextas    Ricardo
+Terças    Alexandre<br>
+Quartas   Ricardo<br>
+Quintas   Alexandre<br>
+Sextas    Ricardo<br>
