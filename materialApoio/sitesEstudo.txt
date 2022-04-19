@@ -1,0 +1,3 @@
+Tutorial C# - https://www.w3schools.com/cs/index.php
+
+Tutorial SQL - https://www.w3schools.com/sql/
