@@ -6,17 +6,17 @@ Curso de capacitação da UFN para formação na Tecnologia .Net
 
 Alexandre Zamberlan - https://github.com/alexandrezamberlan
 
-Deivson Morim Pasa - https://github.com/dmpasa
+Deivison Morim Pasa - https://github.com/dmpasa
 
 Ricardo Frohlich da Silva - https://github.com/ricardosma
 
 
 ## Assuntos
-Front-end - Deivson Morim Pasa<br>
+Front-end - Deivison Morim Pasa<br>
 Back-end - Alexandre Zamberlan e Ricardo Frohlich da Silva
 
 ## Horário - 19h às 22h - TEAMS
-Segundas  Deivson<br>
+Segundas  Deivison<br>
 Terças    Alexandre<br>
 Quartas   Ricardo<br>
 Quintas   Alexandre<br>
