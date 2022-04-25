@@ -8,3 +8,21 @@ Tutorial ASP e ASP .Net - https://www.w3schools.com/asp/default.asp
 Tutorial Git - https://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 Tutorial SQL - https://www.w3schools.com/sql/
+
+
+
+---------
+FRONT-END
+---------
+
+- W3c (World Wide Web Consortium)
+http://w3.org/
+
+- Mozzila Developer Network
+https://developer.mozilla.org/pt-BR/
+
+- WHATWG
+https://whatwg.org/
+
+- W3Schools
+https://www.w3schools.com/
