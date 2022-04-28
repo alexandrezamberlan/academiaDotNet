@@ -1,13 +1,17 @@
 
+Roteiro das aulas
+
+26/04
 https://github.com/alexandrezamberlan/academiaDotNet
 
-Senha temporária para acesso 'a Agenda UFN
+Sistema de Versionamento de Código/Texto
+    - Serviço Git: serviço gratuito para versionamento de código
+    - Portal GitHub: servidor Web que gera serviço git
+    - Comandos
+    - https://github.com/alexandrezamberlan/oficinaGit
+    - alexandrezamberlan
 
+Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
+    - Visual Studio Code (VS Code)
+    - Visual Studio
 
-Para acessar o email da UFN (enquanto curso academia)
-1) www.ufn.edu.br
-2) acessar Agenda
-3) digitar seu cpf
-4) senha temporária Acad#2022
-5) trocar senha pela nova
-6) acessar o teams web

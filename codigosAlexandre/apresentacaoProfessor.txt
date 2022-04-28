@@ -4,17 +4,5 @@ Cruz Alta - RS
 
 email: alexz@ufn.edu.br
 
-Roteiro das aulas
-
-26/04
-Sistema de Versionamento de Código/Texto
-    - Serviço Git: serviço gratuito para versionamento de código
-    - Portal GitHub: servidor Web que gera serviço git
-    - Comandos
-    - https://github.com/alexandrezamberlan/oficinaGit
-    - alexandrezamberlan
-
-Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
-    - Visual Studio Code (VS Code)
-    - Visual Studio
+https://github.com/alexandrezamberlan/academiaDotNet
 

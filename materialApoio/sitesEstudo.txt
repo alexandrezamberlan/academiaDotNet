@@ -1,3 +1,6 @@
+---------
+BACK-END
+---------
 
 Tutorial C# - https://www.w3schools.com/cs/index.php
 
@@ -5,7 +8,9 @@ Tutorial Orientação a Objetos em C# - https://www.w3schools.com/cs/cs_oop.php
 
 Tutorial ASP e ASP .Net - https://www.w3schools.com/asp/default.asp
 
-Tutorial Git - https://rogerdudler.github.io/git-guide/index.pt_BR.html
+Tutorial Git - 
+    https://rogerdudler.github.io/git-guide/index.pt_BR.html
+    Excelente vídeo sobre GitHub e VS Code - https://www.youtube.com/watch?v=HIqyLRKv-YE&t=777s
 
 Tutorial SQL - https://www.w3schools.com/sql/
 
