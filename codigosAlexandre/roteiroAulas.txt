@@ -10,6 +10,10 @@ Sistema de Versionamento de Código/Texto
     - Comandos
     - https://github.com/alexandrezamberlan/oficinaGit
     - alexandrezamberlan
+    
+    - Quando o computador pessoal apresenta problemas de credenciamento. Executar no terminal
+    git config --global user.name "Fulano de Tal"
+    git config --global user.email fulano@exemplo.com.br
 
 Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
     - Visual Studio Code (VS Code)
