@@ -2,7 +2,9 @@
 BACK-END
 ---------
 
-Tutorial C# - https://www.w3schools.com/cs/index.php
+Tutorial C# - 
+    https://www.w3schools.com/cs/index.php
+    Documentação oficial Microsoft - https://docs.microsoft.com/pt-br/dotnet/csharp/
 
 Tutorial Orientação a Objetos em C# - https://www.w3schools.com/cs/cs_oop.php
 
@@ -13,7 +15,6 @@ Tutorial Git -
     Excelente vídeo sobre GitHub e VS Code - https://www.youtube.com/watch?v=HIqyLRKv-YE&t=777s
 
 Tutorial SQL - https://www.w3schools.com/sql/
-
 
 
 ---------
