@@ -18,4 +18,9 @@ Sistema de Versionamento de Código/Texto
 Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
     - Visual Studio Code (VS Code)
     - Visual Studio
+    
+28/04
+Visual Studio 2022
+Github
+Exercícios de programação sequencial -> variáveis e instruções básicas (leitura, escrita e atribuição)
 
