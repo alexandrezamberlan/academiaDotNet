@@ -5,6 +5,7 @@ BACK-END
 Tutorial C# - 
     https://www.w3schools.com/cs/index.php
     Documentação oficial Microsoft - https://docs.microsoft.com/pt-br/dotnet/csharp/
+    Material do Professor Ricardo - https://github.com/alexandrezamberlan/academiaDotNet/tree/main/materialApoio/logicaProgramacao
 
 Tutorial Orientação a Objetos em C# - https://www.w3schools.com/cs/cs_oop.php
 
