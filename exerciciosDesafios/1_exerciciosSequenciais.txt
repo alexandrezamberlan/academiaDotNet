@@ -1,3 +1,5 @@
+No seu Github, criar um repositório de exerciciosAcademia e lá depositar as respostas dos exercícios.
+
 1) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre dois números quaisquer.
 
 2) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre quatro números quaisquer.
