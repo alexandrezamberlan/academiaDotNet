@@ -45,6 +45,10 @@ numeroEleitores = int.Parse(Console.ReadLine());
 Console.Write("Informe a quantidade de votos brancos: ");
 numeroVotosBrancos = int.Parse(Console.ReadLine());
 
+/// <summary>
+/// PARA EXEMPLIFICAR NO GITHUB
+/// </summary>
+
 Console.Write("Informe a quantidade de votos nulos: ");
 numeroVotosNulos = int.Parse(Console.ReadLine());
 
