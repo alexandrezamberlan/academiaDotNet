@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\bin\Debug\net6.0\ManipulandoStrings.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\bin\Debug\net6.0\ManipulandoStrings.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\bin\Debug\net6.0\ManipulandoStrings.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\bin\Debug\net6.0\ManipulandoStrings.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\bin\Debug\net6.0\ManipulandoStrings.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\refint\ManipulandoStrings.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ManipulandoStrings.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings\obj\Debug\net6.0\ref\ManipulandoStrings.dll
