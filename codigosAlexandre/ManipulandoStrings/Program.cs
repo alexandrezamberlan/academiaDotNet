@@ -43,3 +43,5 @@ string[] palavras = fraseMaiusculo.Split(" "); //separou em um vetor as palavras
 
 Console.WriteLine("A ultima palavra digitada foi: " + palavras[  palavras.Length - 1 ]);
 
+
+
