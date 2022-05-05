@@ -25,3 +25,13 @@ maior que 30 e menor que 35 -> obesidade
 maior que 35                -> obesidade grau sério
 
 
+7 - Faça um programa em C# e no VS para receber uma frase qualquer e uma palavra de pesquisa.
+O programa deve avaliar se a palavra aparece na frase, informando o usuário via mensagem, como por 
+exemplo, A palavra encontra-se na frase   ou A palavra não se encontra na frase.
+
+8 - Faça um programa no VS que receba o código, nome, salário base e o total de vendas de um funcionário.
+Caso o total de vendas seja acima de R$ 500,00, adicionar ao seu salário final 5% do total de vendas.
+Caso o total de vendas seja mais que R$ 1000,00, adicionar ao seu salário final 7% do total de vendas.
+E por fim, se o total de vendas seja maior que R$ 5000,00, adicionar ao seu salário final 10% do 
+total de vendas. 
+
