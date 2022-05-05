@@ -1,0 +1,27 @@
+1 - Faça um algoritmo para calcular e mostrar a área de um triângulo a partir dos valores da base e da altura lidos pelo teclado: 
+Área do triangulo = (base * altura) / 2; 
+Teste se a base ou a altura digitada não foi igual a zero. 
+
+2 - Faça um algoritmo para ler um número e verificar se ele é par ou ímpar. 
+
+3 - Escrever um algoritmo para ler quatro valores inteiros, calcular a sua média, e escrever na tela os que são superiores à média.
+
+4 - Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores e o valor por hora recebido por cada um deles. 
+Mostrar na tela qual dos professores tem o maior salário total.
+
+5 - Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” se a média das duas notas for maior 
+ou igual a 7,0. Caso a média seja inferior a 7,0, o programa deve ler a nota do exame e calcular a média final. 
+Se esta média for maior ou igual a 5,0, o programa deve escrever “Aprovado”, caso contrário deve escrever “Reprovado”.
+
+6 - Faça um programa em C# e no Visual Studio para receber o nome (totalmente em maiúsculo), a altura (metros) e o peso (kg) de uma pessoa.
+O programa deve calcular o Indice de Massa Corpórea (IMC), exibi-lo ao usuário e informar sua situação conforme a tabela.
+O cálculo do imc = peso / (altura * altura)
+
+IMC 
+menor que 18                -> baixo peso
+maior que 18 e menor que 25 -> peso normal
+maior que 25 e menor que 30 -> sobrepeso
+maior que 30 e menor que 35 -> obesidade
+maior que 35                -> obesidade grau sério
+
+

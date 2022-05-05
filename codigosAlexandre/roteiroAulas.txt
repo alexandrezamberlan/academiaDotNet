@@ -30,5 +30,58 @@ Exercícios de programação sequencial -> variáveis e instruções básicas (l
 Sites de apoio em C# - https://www.w3schools.com/cs/index.php
 Resolução de alguns exercícios de programação sequencial
 
+05/05
+Sites de apoio em C# - https://www.w3schools.com/cs/index.php
+Discussão e resolução de exercícios de instruções de controle do tipo condicional/seleção
+
+Condição ou Expressão Condicional -> retorna Verdadeiro/1/True   ou   Falso/0/False
+    - Em C# o tipo de dados para expressões condicionail bool ou Boolean
+    - Operadores lógicos
+        - E     And     &       &&
+        - OU    Or      |       ||
+        - Não   Not     !
+
+
+        string sexo = "masculino";
+        int idade = 47;
+        ...
+        if (sexo == "masculino" && idada > 40) {
+            //trecho de código ou uma rotina caso a condição seja verdadeira ou true
+        } else {
+            //trecho de código ou uma rotina caso a condição seja falsa
+        }
+
+        Seleção -> Concatenada
+        Seleção -> Aninhada
+
+        int dia = Console.ReadLine();
+        if (dia < 1 || dia > 31) {
+            Console.WriteLine("Erroooooo");
+        } else {
+            int mes = Console.ReadLine();
+            if (mes < 1 || mes > 12){
+                Console.WriteLine("Mes errroooooo");
+            } else {
+                int ano = Console.ReadLine();
+                if (ano < 1600 || ano > Date.now()) {
+                    Console.WriteLine("Ano inválido!");
+                } else {
+                    if (dia == 31 && (mes == 2 || mes == 4)){
+                        Console.WriteLine("Este mês não tem 31 dias");
+                    } else {
+                        
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
 
 
