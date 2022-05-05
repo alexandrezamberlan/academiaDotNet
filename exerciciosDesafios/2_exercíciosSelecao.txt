@@ -44,3 +44,5 @@ Além disso, o programa deve fazer a média dos 3 valores de glicemia coletados.
 menor que 80, avisá-lo que é preciso diminuir 2 unidades de insulina. Se a média for maior que
 150, avisá-lo que será necessário adicionar 2 unidades de insulina.
 
+10 - 
+
