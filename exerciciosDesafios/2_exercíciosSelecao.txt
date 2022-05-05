@@ -57,3 +57,9 @@ R$ 10,00 por hora. Quando o número de horas exceder a 50 calcule o excesso de p
 armazenando-o na variável "extra", caso contrário zerar tal variável. A hora excedente de trabalho vale R$ 20,00. 
 No final do processamento, exibir o salário total e o salário excedente do operário.
 
+13 - Tendo como dado de entrada a altura (h) de uma pessoa, construa um programa no VS que calcule 
+seu peso ideal, utilizando as seguintes fórmulas:
+Para homens: (72.7 * h) - 58
+Para mulheres: (62.1 * h) - 44.7
+
+14 - 
