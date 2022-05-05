@@ -62,4 +62,11 @@ seu peso ideal, utilizando as seguintes fórmulas:
 Para homens: (72.7 * h) - 58
 Para mulheres: (62.1 * h) - 44.7
 
-14 - 
+14 - Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um 
+link de Internet (em Mbps). Em seguida, calcule e informe o tempo aproximado de download 
+do arquivo usando este link (em minutos).
+
+15 - Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados 
+da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados 
+e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. 
+Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
