@@ -9,9 +9,13 @@ Teste se a base ou a altura digitada não foi igual a zero.
 4 - Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores e o valor por hora recebido por cada um deles. 
 Mostrar na tela qual dos professores tem o maior salário total.
 
-5 - Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” se a média das duas notas for maior 
-ou igual a 7,0. Caso a média seja inferior a 7,0, o programa deve ler a nota do exame e calcular a média final. 
-Se esta média for maior ou igual a 5,0, o programa deve escrever “Aprovado”, caso contrário deve escrever “Reprovado”.
+5 - Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” 
+se a média das duas notas for maior ou igual a 7,0. 
+
+Caso a média seja inferior a 7,0, o programa deve ler a nota do exame e calcular a média final,
+é a média entre a nota do exame e a média das 2 notas. 
+Se esta média final for maior ou igual a 5,0, o programa deve escrever “Aprovado”, caso contrário deve 
+escrever “Reprovado”.
 
 6 - Faça um programa em C# e no Visual Studio para receber o nome (totalmente em maiúsculo), a altura (metros) e o peso (kg) de uma pessoa.
 O programa deve calcular o Indice de Massa Corpórea (IMC), exibi-lo ao usuário e informar sua situação conforme a tabela.
