@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/bin/Debug/net6.0/Exercicio15
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/bin/Debug/net6.0/Exercicio15.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/bin/Debug/net6.0/Exercicio15.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/bin/Debug/net6.0/Exercicio15.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/bin/Debug/net6.0/Exercicio15.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/refint/Exercicio15.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/Exercicio15.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet-1/codigosAlexandre/selecao/Exercicio15/obj/Debug/net6.0/ref/Exercicio15.dll
