@@ -90,6 +90,7 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 
 19 - Ajuste o exercício 3 de maneira que mostre os valores informados em ordem crescente.
 
-20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”.
+20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+plus: você pode gerar o número de forma randomica (função random c#).
 
 
