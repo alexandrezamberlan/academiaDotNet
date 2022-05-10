@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\bin\Debug\net6.0\Exercicio9.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\bin\Debug\net6.0\Exercicio9.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\bin\Debug\net6.0\Exercicio9.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\bin\Debug\net6.0\Exercicio9.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\bin\Debug\net6.0\Exercicio9.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\refint\Exercicio9.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\Exercicio9.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Exercicio9\obj\Debug\net6.0\ref\Exercicio9.dll

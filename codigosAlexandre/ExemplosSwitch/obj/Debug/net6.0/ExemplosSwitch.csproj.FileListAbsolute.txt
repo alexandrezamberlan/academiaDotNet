@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\bin\Debug\net6.0\ExemplosSwitch.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\bin\Debug\net6.0\ExemplosSwitch.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\bin\Debug\net6.0\ExemplosSwitch.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\bin\Debug\net6.0\ExemplosSwitch.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\bin\Debug\net6.0\ExemplosSwitch.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\refint\ExemplosSwitch.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ExemplosSwitch.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ExemplosSwitch\obj\Debug\net6.0\ref\ExemplosSwitch.dll
