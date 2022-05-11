@@ -58,8 +58,6 @@ Console.WriteLine("Tamanho da lista: " + listaAlunos.Count);
 //Console.WriteLine("Tamanho da lista: " + listaAlunos.Count);
 
 
-
-
 List<int> listaGlicemia = new List<int>();
 listaGlicemia.Add(136);
 listaGlicemia.Add(66);
