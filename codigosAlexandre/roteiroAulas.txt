@@ -41,11 +41,11 @@ Desvio condicional ou instruções de controle por SELEÇÃO
     - https://www.w3schools.com/cs/cs_switch.php
 
 Classes:
+    - string
     - Random
     - DateTime - https://docs.microsoft.com/pt-br/dotnet/api/system.datetime.now?view=net-6.0
     - List
-    - string
-    - Math
+    - Math 
 
 
 
