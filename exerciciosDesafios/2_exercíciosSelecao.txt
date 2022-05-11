@@ -88,7 +88,7 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 
 18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
 
-19 - Ajuste o exercício 3 de maneira que mostre os valores informados em ordem crescente.
+19 - Ajuste o exercício 18 de maneira que mostre os valores informados em ordem crescente.
 
 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
 plus: você pode gerar o número de forma randomica (função random c#).
