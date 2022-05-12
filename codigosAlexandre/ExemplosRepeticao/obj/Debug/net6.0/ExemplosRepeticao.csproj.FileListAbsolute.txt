@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/bin/Debug/net6.0/ExemplosRepeticao
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/bin/Debug/net6.0/ExemplosRepeticao.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/bin/Debug/net6.0/ExemplosRepeticao.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/bin/Debug/net6.0/ExemplosRepeticao.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/bin/Debug/net6.0/ExemplosRepeticao.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/refint/ExemplosRepeticao.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ExemplosRepeticao.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/ExemplosRepeticao/obj/Debug/net6.0/ref/ExemplosRepeticao.dll
