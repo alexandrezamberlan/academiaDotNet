@@ -1,0 +1,61 @@
+1. Faça um programa em VS que solicite um número inteiro positivo ao usuário, validando a entrada de dados 
+(informando se ele estiver errado e repetindo a solicitação até que esteja correto). 
+Após o programa em VS deve informar todos os números pares existentes entre 1 e o número fornecido pelo usuário.
+
+Exemplo:
+Digite um número inteiro positivo: -8
+Valor incorreto!
+Digite um número inteiro positivo: 8
+Numero digitado: 8
+Números inteiros pares entre 1 e 8: 2, 4, 6.
+ 
+ 
+2. Modificar o programa em VS anterior para que ao final ele pergunte ao usuário se ele deseja 
+informar um outro número. Caso positivo, o programa em VS deve ser repetido.
+ 
+Exemplo:
+Digite um número inteiro positivo: 8
+Numero digitado: 8
+Números inteiros pares entre 1 e 8: 2, 4, 6.
+ 
+Deseja informar outro número (s/n)? S
+ 
+Digite um número inteiro positivo: 12
+Numero digitado: 20
+Números inteiros pares entre 1 e 8: 2, 4, 6, 8, 10.
+ 
+Deseja informar outro número (s/n)? N 
+ 
+ 
+3. Fazer um laço (repetição) que fique solicitando números ao usuário. 
+Se o usuário digitar 0 o programa em VS deve parar. 
+Caso contrário, o programa em VS deve informar se o número é par ou ímpar e se ele é um número primo.   
+ 
+4. Em uma cidadezinha do interior há dois candidatos para prefeito (JOAO e ZECA). 
+Você foi contratado para fazer um programa em VS que conte os votos dos candidatos. 
+Cada vez que o usuário digitar JOAO, você deve somar um ao seu número de votos. O mesmo para ZECA. 
+Você também pode aceitar votos em branco (palavra BRANCO). O programa em VS termina quando o usuário 
+escrever FIM. Ao final devem ser mostradas as quantidades de votos para cada um dos candidatos e o número 
+de votos em branco. 
+ 
+5. Modifique o programa em VS anterior para aceitar votos nulos 
+(qualquer nome diferente de FIM, JOAO, ZECA e BRANCO). 
+Ao final, informe o nome do candidato vencedor, o número de votos nulos e o número de pessoas que votaram.
+ 
+ 
+6. Faça um programa em VS que solicite ao o usuário que informe a idade e valide a entrada de dados, 
+ou seja, repita a leitura até que ela esteja correta (maior do que zero). 
+Ao final, mostre a idade digitada.
+ 
+7. Faça um programa em VS que solicite o nome, a idade e o salário de uma pessoa. 
+A cada solicitação, teste se o usuário informou um valor válido. 
+Por exemplo: se o nome for não for lido corretamente (ou seja, se estiver em branco ou se for um número), 
+informe que ele está incorreto e saia do programa em VS. 
+Se o nome for lido corretamente, solicite a idade. Se ela for incorreta (menor ou igual a zero), 
+informe que está errada e saia. Se estiver correta, solicite o salário. 
+Se ele estiver incorreto (menor ou igual a zero), informe que está incorreto e saia. 
+Se estiver correto, mostre todos os valores lidos.
+ 
+8. Faça um programa em VS que solicite um numero inteiro. Se o numero não for inteiro, solicite-o até q
+ue seja. após, informe se ele é par ou impar. 
+Finalmente, pergunte ao usuário se ele quer repetir o programa em VS.
