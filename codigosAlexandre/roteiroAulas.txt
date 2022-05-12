@@ -19,31 +19,34 @@ Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
     - Visual Studio Code (VS Code)
     - Visual Studio
     
+
 28/04
 Visual Studio 2022
 Github
 Exercícios de programação sequencial -> variáveis e instruções básicas (leitura, escrita e atribuição)
 
-/*
- * Ao se trabalhar com instruções básicas, há 3:
- * - ATRIBUIÇÃO -> variavel = valor;
- * idade = 47;
- * tempo_de_sono = idade / 3;
- * nome = Console.Readline();
- * 
- * - LEITURA -> Console.Readline()
- * 
- * - ESCRITA -> Console.Write(variavel) -> escreve mas não quebra a linha
- *              Console.Write(valorFixo)
- *              
- *              Console.WriteLine(variavel) -> escreve e coloca o cursos na próxima linha * 
- */
 
-/*
- * Variáveis possuem tipos
- * int
- * float
- * string
- * ...
- */
+03/05
+Sites de apoio em C# - https://www.w3schools.com/cs/index.php
+Resolução de alguns exercícios de programação sequencial 
+Boas práticas de desenvolvimento:
+    1) versionamento de código
+    2) acessar/ler/estudar documentação da tecnologia
+    3) documentação ou comentários
+
+10/05
+Desvio condicional ou instruções de controle por SELEÇÃO 
+    - Material do professor Ricardo
+    - Instrução de controle de desvio condicional SWITCH
+    - https://www.w3schools.com/cs/cs_switch.php
+
+Classes:
+    - string
+    - Random
+    - DateTime - https://docs.microsoft.com/pt-br/dotnet/api/system.datetime.now?view=net-6.0
+    - List
+    - Math 
+
+
+
 

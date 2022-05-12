@@ -43,8 +43,9 @@ três notas de R$ 10,00, uma nota de R$ 5,00 e duas notas de R$ 1,00.
 Escreva um programa que receba o valor da quantia solicitada e retorne a distribuição das notas 
 de acordo com o critério da “distribuição ótima”.
 
-11) Escreva um algoritmo para ler o número de eleitores de um município, o número de votos brancos, nulos e válidos. Calcule e escreva o percentual que cada um 
-representa em relação ao total de eleitores.
+11) Escreva um algoritmo para ler o número de eleitores de um município, 
+o número de votos brancos, nulos e válidos. 
+Calcule e escreva o percentual que cada um  representa em relação ao total de eleitores.
 
 12) Um motorista de taxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do combustível é de R$6,90, escreva um algoritmo para ler a 
 marcação do odômetro (marcador de quilometragem) no início do dia, a marcação no final do dia, o número de litros de combustível gasto e o valor total (R$) recebido 

@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\bin\Debug\net6.0\ManipulandoStrings_abreviacao.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\bin\Debug\net6.0\ManipulandoStrings_abreviacao.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\bin\Debug\net6.0\ManipulandoStrings_abreviacao.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\bin\Debug\net6.0\ManipulandoStrings_abreviacao.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\bin\Debug\net6.0\ManipulandoStrings_abreviacao.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\refint\ManipulandoStrings_abreviacao.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ManipulandoStrings_abreviacao.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ManipulandoStrings_abreviacao\obj\Debug\net6.0\ref\ManipulandoStrings_abreviacao.dll

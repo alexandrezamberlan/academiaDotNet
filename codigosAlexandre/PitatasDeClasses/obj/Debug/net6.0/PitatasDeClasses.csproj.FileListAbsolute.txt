@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\bin\Debug\net6.0\PitatasDeClasses.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\bin\Debug\net6.0\PitatasDeClasses.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\bin\Debug\net6.0\PitatasDeClasses.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\bin\Debug\net6.0\PitatasDeClasses.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\bin\Debug\net6.0\PitatasDeClasses.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\refint\PitatasDeClasses.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\PitatasDeClasses.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\PitatasDeClasses\obj\Debug\net6.0\ref\PitatasDeClasses.dll

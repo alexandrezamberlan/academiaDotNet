@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PitatasDeClasses", "PitatasDeClasses.csproj", "{BCE2B175-AC8D-48BF-9F6A-8FD28AC47B44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE2B175-AC8D-48BF-9F6A-8FD28AC47B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE2B175-AC8D-48BF-9F6A-8FD28AC47B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE2B175-AC8D-48BF-9F6A-8FD28AC47B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE2B175-AC8D-48BF-9F6A-8FD28AC47B44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB407A93-12D1-4784-901E-446E3D089A3F}
+	EndGlobalSection
+EndGlobal
