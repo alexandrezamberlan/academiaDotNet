@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/bin/Debug/net6.0/Exercicio4
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/bin/Debug/net6.0/Exercicio4.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/bin/Debug/net6.0/Exercicio4.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/bin/Debug/net6.0/Exercicio4.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/bin/Debug/net6.0/Exercicio4.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/refint/Exercicio4.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/Exercicio4.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio4/obj/Debug/net6.0/ref/Exercicio4.dll
