@@ -47,6 +47,28 @@ Classes:
     - List
     - Math 
 
+12/05
+Instruções de controle de repetição
 
+Independente da instrução de repetição utilizada, é preciso garantir 3 situações na repetição:
+1 - inicialização da variável de controle da repetição
+2 - usar a variável de controle em teste de parada/continuação (CONDIÇÃO)
+3 - transformar a variável de controle
 
+C#
+    do { //PRIMEIRO EXECUTA E DEPOIS TESTA
+        //bloco de instruções que será repetido enquanto a condição do while for VERDADEIRA ou true
+    } while (CONDIÇÃO);
+
+    ------
+
+    while ( CONDIÇÃO ) { //PRIMEIRO TESTA E DEPOIS EXECUTA
+        //bloco de instruções que será repetido enquanto a condição do while for VERDADEIRA 
+    }
+
+    ------
+
+    for ( ; CONDIÇÃO ; ) { //PARA ESSA SITUAÇAO, ENQUANTO FOR VERDADE A CONDIÇÃO FAÇA O BLOCO DE INSTRUÇÕES
+
+    }
 
