@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/bin/Debug/net6.0/Exercicio17
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/bin/Debug/net6.0/Exercicio17.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/bin/Debug/net6.0/Exercicio17.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/bin/Debug/net6.0/Exercicio17.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/bin/Debug/net6.0/Exercicio17.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/refint/Exercicio17.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/Exercicio17.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/repeticao/Exercicio17/obj/Debug/net6.0/ref/Exercicio17.dll
