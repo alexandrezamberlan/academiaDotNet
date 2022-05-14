@@ -5,17 +5,18 @@ soma: S = 1 + 1/2 + 1/3 + 1/4 + 1/5 .... 1/n
 Polegada = Centímetro * 2,54.
 
 3.	Dado um limite inferior e superior, calcule a soma de todos os números pares contidos
-nesse intervalo. 11. 
-Faça um algoritmo que leia uma lista de números inteiros positivos terminada pelo número 0 (zero). 
+nesse intervalo. 
+
+4 . Faça um algoritmo que leia uma lista de números inteiros positivos terminada pelo número 0 (zero). 
 Ao final, o algoritmo deve mostrar a média aritmética de todos os números lidos (excluindo o zero).
 
-4.	Escreva um programa em C que gera números entre 1000 e 1999 e mostra aqueles que divididos
+5.	Escreva um programa em C# que gera números entre 1000 e 1999 e mostra aqueles que divididos
 por 11 dão resto 5.
 
-5.	Faça um programa que leia um número n e imprima se ele é primo ou não. 
+6.	Faça um programa que leia um número n e imprima se ele é primo ou não. 
 (um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
 
-6.	Os dois primeiros números da sequência de Fibonacci são 0 e 1. Os próximos números dessa 
+7.	Os dois primeiros números da sequência de Fibonacci são 0 e 1. Os próximos números dessa 
 sequência podem ser calculados como sendo a soma dos dois números anteriores. Os primeiros
 números de Fibonacci são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, … Escreva um algoritmo 
 que leia um número pelo teclado N, e então mostre os N primeiros números da sequência de Fibonacci.
