@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/bin/Debug/net6.0/Drop2_email
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/bin/Debug/net6.0/Drop2_email.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/bin/Debug/net6.0/Drop2_email.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/bin/Debug/net6.0/Drop2_email.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/bin/Debug/net6.0/Drop2_email.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/refint/Drop2_email.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/Drop2_email.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop2_email/obj/Debug/net6.0/ref/Drop2_email.dll
