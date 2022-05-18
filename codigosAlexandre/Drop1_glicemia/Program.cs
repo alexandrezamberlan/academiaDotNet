@@ -15,8 +15,7 @@
 List<int> listaGlicemia = new List<int>();
 
 // opcao é um objeto da classe string, logo tem atributos e métodos vindos da classe: ToUpper(); Length; Split()
-string opcao;
-
+string opcao = "";
 do {
     Console.Clear();
     Console.WriteLine("MENU");
@@ -30,6 +29,15 @@ do {
     switch  (opcao) {
         case "1":
             //gerar lista aleatoria
+            Console.WriteLine("Lista sendo populada");
+            int quantidadeNumeros;
+            Console.Write("Quantos números quer gerar? ");
+            quantidadeNumeros = int.Parse( Console.ReadLine() );
+            Random gerador = new Random();
+            for (int i = 0; i < quantidadeNumeros; i++)
+            {
+                listaGlicemia.Add( gerador.Next(45,500) );
+            }
             break;
         case "2":
             //exibir lista aleatoria
