@@ -42,17 +42,55 @@ do {
         case "2":
             //exibir lista aleatoria
             Console.WriteLine("Exibindo a lista de valores glicêmicos");
-            for (int i = 0; i < listaGlicemia.Count; i++)
-            {
-                Console.WriteLine(listaGlicemia[i]);
+            if (listaGlicemia.Count == 0) {
+                Console.WriteLine("Lista Vazia!");
+            } else {
+                for (int i = 0; i < listaGlicemia.Count; i++)
+                {
+                    Console.WriteLine(listaGlicemia[i]);
+                }
+                // foreach (int i in listaGlicemia)
+                // {
+                //     Console.WriteLine(i);
+                // }
             }
-            // foreach (int i in listaGlicemia)
-            // {
-            //     Console.WriteLine(i);
-            // }
             break;
         case "3":
-            //mostrar medidas centrais
+            Console.WriteLine("Exibindo as medidas centrais da lista");
+            if (listaGlicemia.Count == 0) {
+                Console.WriteLine("Lista Vazia!");
+            } else {
+                //mostrar medidas centrais
+                float media;
+                int min;
+                int max;
+                float mediana;
+
+                List<int> listaTmp = new List<int>();
+                listaTmp.AddRange(listaGlicemia);
+                listaTmp.Sort();
+                min = listaTmp[0];
+                max = listaTmp[ listaTmp.Count - 1 ];
+                int soma = 0;
+                foreach (int i in listaTmp){
+                    //soma = soma + i;
+                    soma += i;
+                }
+                media = soma / listaTmp.Count;
+
+                //regra de negócio para cálculo da mediana
+                int meio = (int)listaTmp.Count / 2;
+                if (listaTmp.Count % 2 != 0) { //lista tem tamanho impar
+                    mediana = listaTmp[meio];
+                } else { //lista tem tamanho par
+                    mediana  = listaTmp[meio] + listaTmp[meio - 1] / 2;
+                }
+                
+                Console.WriteLine("A mediana de valores da lista é: " + mediana);
+                Console.WriteLine("A média de valores da lista é: " + media);
+                Console.WriteLine("O valor min da lista é: " + min);
+                Console.WriteLine("O valor max da lista é: " + max);
+            }
             break;
         case "4":
             Console.WriteLine("Obrigado por usar o sistema");
