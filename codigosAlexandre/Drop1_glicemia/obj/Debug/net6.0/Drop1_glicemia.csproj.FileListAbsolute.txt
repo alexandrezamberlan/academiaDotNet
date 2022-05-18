@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/bin/Debug/net6.0/Drop1_glicemia
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/bin/Debug/net6.0/Drop1_glicemia.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/bin/Debug/net6.0/Drop1_glicemia.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/bin/Debug/net6.0/Drop1_glicemia.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/bin/Debug/net6.0/Drop1_glicemia.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/refint/Drop1_glicemia.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/Drop1_glicemia.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop1_glicemia/obj/Debug/net6.0/ref/Drop1_glicemia.dll
