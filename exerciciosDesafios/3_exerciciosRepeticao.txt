@@ -73,7 +73,7 @@ Número de pessoas com idade superior a 60 anos.
 Média de idade das mulheres.
 
 11. Ler as notas de uma turma de alunos e ao final imprimir a nota mais alta, a nota mais baixa, 
-a média aritmética da turma e a quantidade de alunos da turma. Usar como flag a nota 12.
+a média aritmética da turma e a quantidade de alunos da turma. Usar -1 para encerrar a leitura.
 
 12. Apresentar o total da soma dos cem primeiros números inteiros.
 

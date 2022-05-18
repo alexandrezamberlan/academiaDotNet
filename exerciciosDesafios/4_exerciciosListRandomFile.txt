@@ -1,0 +1,68 @@
+1) Fazer um programa em VS que gere uma lista com n valores randômicos e inteiros para glicemia (entre 45 a 500). 
+O progrma deve calcular média, valor mínimo, valor máximo e mediana.
+Sugere-se criar um menu como:
+
+MENU
+1 - Gerar lista
+2 - Exibir lista
+3 - Mostrar medidas centrais (média, valores min e max e mediana)
+4 - Sair
+Opção: ____
+
+Observação, toda vez que a opção 1 for acionada, o usuário deve definir quantos números serão gerados na lista
+
+2) Fazer um programa em VS que permita o usuário cadastrar emails de clientes (em uma lista). 
+Uma vez cadastrados os emails, o programa deve separar o nome de usuário (antes do @) do domínio do email 
+(depois do @). Ao final, o programa deve exibir os domínios utilizados no cadastro (não pode exibir os repetidos).
+Observação: os domínio são, por exemplo, gmail.com; yahoo.com.br; ufn.edu.br; hotmail.com; entre outros.
+
+Sugere-se usar um menu como:
+
+MENU 
+1 - Cadastrar emails
+2 - Mostrar lista de emails
+3 - Mostrar dominíos de emails
+4 - Sair
+Opção:____
+
+
+3) Fazer um programa parecido com o número 1, porém, os dados devem vir de um arquivo texto (um valor abaixo do outro).
+
+Por exemplo, 
+glicemia.txt 
+123
+200
+98
+45
+122
+100
+90
+98
+
+
+Também sugere-se usar um menu
+
+MENU
+1 - Abrir arquivo com dados de glicemia e popular lista
+2 - Exibir lista
+3 - Mostrar medidas centrais (média, valores min e max e mediana)
+4 - Sair
+Opção: ____
+
+
+
+4) Fazer um programa em VS, como o programa de número 2, entretando os emails devem ser coletados de um arquivo
+e populados em uma lista. Uma vez populados os emails na lista, o programa deve separar o nome de usuário (antes do @)
+do domínio do email (depois do @). Ao final, o programa deve exibir os domínios utilizados no cadastro 
+(não pode exibir os repetidos).
+
+Observação: os domínio são, por exemplo, gmail.com; yahoo.com.br; ufn.edu.br; hotmail.com; entre outros.
+
+Sugere-se usar um menu como:
+
+MENU 
+1 - Abrir arquivo com emails e popular lista
+2 - Mostrar lista de emails
+3 - Mostrar dominíos de emails
+4 - Sair
+Opção:____
