@@ -2,7 +2,7 @@
 
 string opcao = "";
 string nomeArquivo = "emails.dat"; //texto puro -> plain text
-StreamWriter escritor = new StreamWriter(nomeArquivo); //abre o arquivo para escrita
+StreamWriter escritor = new StreamWriter(nomeArquivo, true); //abre o arquivo para escrita e com append
 
 do
 {
@@ -20,10 +20,15 @@ do
             //receber um email e gravar no arquivo
             try
             {
+                string nome;
                 string email;
+
+                Console.Write("Digite nome: ");
+                nome = Console.ReadLine().ToUpper();
+
                 Console.Write("Digite email: ");
                 email = Console.ReadLine().ToLower();                    
-                escritor.WriteLine(email); //literalmente escreve no procurador e em memória
+                escritor.WriteLine(nome + ";" + email); //literalmente escreve no procurador e em memória
                 escritor.Flush(); //garante depois de cada frase digitada que vá para o arquivo                
             }
             catch (IOException e)
