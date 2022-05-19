@@ -72,3 +72,41 @@ C#
 
     }
 
+18/5
+Drops em C#: List, Random, string e StreamReader
+
+Construção de programas para trabalhar com i) dados de glicemia; ii) dados de emails com listas e arquivos
+
+
+19/5
+Refatorar o programa do email e gravar em arquivo (StreamWriter)
+
+Teoria da Orientação a Objetos - Exemplo da Glicemia
+    - como criar uma Classe
+    - como instanciar um objeto dessa Classe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
