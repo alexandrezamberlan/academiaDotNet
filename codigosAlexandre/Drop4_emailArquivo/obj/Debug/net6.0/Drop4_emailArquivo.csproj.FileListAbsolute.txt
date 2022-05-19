@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/bin/Debug/net6.0/Drop4_emailArquivo
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/bin/Debug/net6.0/Drop4_emailArquivo.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/bin/Debug/net6.0/Drop4_emailArquivo.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/bin/Debug/net6.0/Drop4_emailArquivo.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/bin/Debug/net6.0/Drop4_emailArquivo.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/refint/Drop4_emailArquivo.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/Drop4_emailArquivo.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop4_emailArquivo/obj/Debug/net6.0/ref/Drop4_emailArquivo.dll
