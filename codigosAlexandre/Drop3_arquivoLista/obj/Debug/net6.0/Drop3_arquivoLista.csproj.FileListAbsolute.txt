@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/bin/Debug/net6.0/Drop3_arquivoLista
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/bin/Debug/net6.0/Drop3_arquivoLista.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/bin/Debug/net6.0/Drop3_arquivoLista.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/bin/Debug/net6.0/Drop3_arquivoLista.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/bin/Debug/net6.0/Drop3_arquivoLista.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/refint/Drop3_arquivoLista.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/Drop3_arquivoLista.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/Drop3_arquivoLista/obj/Debug/net6.0/ref/Drop3_arquivoLista.dll
