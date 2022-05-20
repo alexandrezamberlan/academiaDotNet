@@ -4,8 +4,34 @@ using Drop6_listaArquivoEscrita;
 
 string opcao = "";
 string nomeArquivo = "emails.dat"; //texto puro -> plain text
-StreamWriter escritor = new StreamWriter(nomeArquivo, true); //abre o arquivo para escrita e com append
+
 List<Pessoa> listaPessoas = new List<Pessoa>();
+
+//verificar se o arquivo de dados existe e popular a listaPessoas
+//abrir e ler os dados do arquivo, populando na lista
+try //tratamento de exceções
+{
+    StreamReader leitor = new StreamReader(nomeArquivo); //abre o arquivo para leitura
+    string linha;
+    string[] dados;
+    do
+    {
+        linha = leitor.ReadLine();
+        dados = linha.Split(";");
+        Pessoa p = new Pessoa(dados[0], dados[1]);
+
+        listaPessoas.Add(p);            
+
+    } while (!leitor.EndOfStream);
+
+    leitor.Close(); //fecha o objeto que representa o arquivo
+}
+catch (IOException e)
+{
+   //nao faz nada, pq o arquivo será criado na linha 34
+}
+
+StreamWriter escritor = new StreamWriter(nomeArquivo, true); //abre o arquivo para escrita e com append
 
 do
 {
