@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\bin\Debug\net6.0\Drop6_listaArquivoEscrita.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\bin\Debug\net6.0\Drop6_listaArquivoEscrita.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\bin\Debug\net6.0\Drop6_listaArquivoEscrita.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\bin\Debug\net6.0\Drop6_listaArquivoEscrita.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\bin\Debug\net6.0\Drop6_listaArquivoEscrita.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\refint\Drop6_listaArquivoEscrita.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\Drop6_listaArquivoEscrita.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\Drop6_listaArquivoEscrita\obj\Debug\net6.0\ref\Drop6_listaArquivoEscrita.dll
