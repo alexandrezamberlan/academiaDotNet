@@ -13,6 +13,8 @@
 // 3 - Mostrar dominíos de emails
 // 4 - Sair
 // Opção:____
+// A partir do Drop4, refatora-lo para que o usário possa cadastrar email na lista, logo no arquivo
+// Para isso, sugiro criar a opção de menu 4 - Cadastrar email e passar a opção Sair para o número 5
 
 List<string> listaEmails = new List<string>();
 List<string> listaDominios = new List<string>();
