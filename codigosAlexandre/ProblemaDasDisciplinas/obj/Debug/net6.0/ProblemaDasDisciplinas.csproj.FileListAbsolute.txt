@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\bin\Debug\net6.0\ProblemaDasDisciplinas.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\bin\Debug\net6.0\ProblemaDasDisciplinas.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\bin\Debug\net6.0\ProblemaDasDisciplinas.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\bin\Debug\net6.0\ProblemaDasDisciplinas.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\bin\Debug\net6.0\ProblemaDasDisciplinas.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\refint\ProblemaDasDisciplinas.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ProblemaDasDisciplinas.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ProblemaDasDisciplinas\obj\Debug\net6.0\ref\ProblemaDasDisciplinas.dll

@@ -1,0 +1,24 @@
+Sistemas e suas arquiteturas:
+    - desktop standalone: 
+        - texto/console/terminal; 
+        - gráfico/forms
+
+    - cliente-servidor: desktop com conexão 'a internet 
+        - texto/console/terminal; 
+        - gráfico/forms
+        - web (navegador)
+        - app de smartphone
+
+        SISTEMA DEVE SER DIVIDIDO EM CAMADAS
+            - Uma das boas práticas é o modelo/framework Model View Controller (MVC)
+            - Por exemplo, Netflix
+                - Web (navegador): 
+                - APP (smartphone):
+                - Desktop: 
+
+            Modelo/Framework/Boa Prática MVC
+                - Model (M) - camada de persistência ou classes de banco de dados
+                
+                - Controller - camada das regras de negócio e o integrador entre Model e View
+                
+                - View (V) - camada de comunicação com o usuário
