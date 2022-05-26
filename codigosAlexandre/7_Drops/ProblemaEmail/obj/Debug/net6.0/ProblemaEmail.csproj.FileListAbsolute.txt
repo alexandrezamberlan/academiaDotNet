@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/bin/Debug/net6.0/ProblemaEmail
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/bin/Debug/net6.0/ProblemaEmail.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/bin/Debug/net6.0/ProblemaEmail.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/bin/Debug/net6.0/ProblemaEmail.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/bin/Debug/net6.0/ProblemaEmail.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/refint/ProblemaEmail.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ProblemaEmail.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet/codigosAlexandre/7_Drops/ProblemaEmail/obj/Debug/net6.0/ref/ProblemaEmail.dll
