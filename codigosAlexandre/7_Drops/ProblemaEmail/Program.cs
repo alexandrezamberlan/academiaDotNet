@@ -18,9 +18,11 @@
 
 using ProblemaEmail;
 
-
 List<Usuario> listaUsuarios = new List<Usuario>();
 string opcao;
+
+//popular a lista com dados do arquivo
+Util.carregarListas(listaUsuarios);
 
 do
 {
@@ -37,7 +39,11 @@ do
     {
         case "1":
             //cadastrar um usuario;
-            
+            Util.cadastrarUsuario("Cadastrando usuário", listaUsuarios);
+            break;
+        case "2":
+            //listar usuarios;
+            Util.exibirLista("Exibindo a lista de usuários", listaUsuarios);
             break;
         case "3":
             Console.WriteLine("Obrigado por usar o sistema");
@@ -48,6 +54,6 @@ do
     }
     Console.Write("Pressione algo para continuar!");
     Console.ReadKey();
-} while (opcao != "2");
+} while (opcao != "3");
 
 
