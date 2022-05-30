@@ -1,80 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title>16 de maio de 2022</title>
-        <style>
-            .container {
-                max-width: 960px;
-                margin: auto;
-                text-align: justify;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 de maio de 2022</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-            p {
-               text-indent: 50px; 
-            }
+        .container {
+            max-width: 960px;
+            margin: auto;
+        }
 
-            .codigo{
-                background-color: #f1f1f1;
-            }
+        .container p {
+            text-align: justify;
+            text-indent: 50px;
+        }
 
-            .container h4 {
-                margin-bottom: 0px;
-                margin-left: 70px;
-            }
+        .container h4 {
+            margin-left: 70px;
+            margin-bottom: 0px;
+        }
 
-            .imagem-web-design {
-                margin: 0px;
-            }
+        .container code {
+            display: block;
+            background-color: #b3b3b3;
+        }
 
-            figcaption {
-                font-size: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1 style="color:blue; text-align: center;">Hello, World!</h1>
-            <h2>Quando esta página da Web foi criada?</h2>
-            <p>Verifique o <strong>título da página</strong> para obter a <em>resposta</em>.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper nibh et odio imperdiet condimentum. In facilisis, nisl eget elementum sodales, erat dolor vulputate odio, at luctus ante sem nec nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel lacus rhoncus, mattis eros vitae, maximus ipsum. In fringilla suscipit vehicula. Duis et lorem mi. Vivamus ligula mauris, blandit id posuere sit amet, bibendum quis ligula.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fuga magni excepturi corporis harum, adipisci voluptate odio non quaerat laudantium. Corporis cum unde nobis libero corrupti? Possimus veritatis aut facilis?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quaerat, expedita corrupti eos delectus molestias quibusdam magni, animi sunt illum nemo! A quia culpa delectus dolores provident eius alias vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper nibh et odio imperdiet condimentum. In facilisis, nisl eget elementum sodales, erat dolor vulputate odio, at luctus ante sem nec nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel lacus rhoncus, mattis eros vitae, maximus ipsum. In fringilla suscipit vehicula. Duis et lorem mi. Vivamus ligula mauris, blandit id posuere sit amet, bibendum quis ligula.</p>
-            <h2>Os elementos HTML utilizados nesta página até agora foram:</h2>
-            <ul>
-                <li>&lt;!DOCTYPE html&gt;</li>
-                <li>&lt;html&gt;</li>
-                <li>&lt;head&gt;</li>
-                <li>&lt;title&gt;</li>
-                <li>&lt;style&gt;</li>
-                <li>&lt;body&gt;</li>
-                <li>&lt;div&gt;</li>
-                <li>&lt;h1&gt;</li>
-                <li>&lt;h2&gt;</li>
-                <li>&lt;p&gt;</li>
-                <li>&lt;strong&gt;</li>
-                <li>&lt;em&gt;</li>
-                <li>&lt;ul&gt;</li>
-                <li>&lt;li&gt;</li>
-            </ul>
-            <h3>O elemento &lt;img&gt;</h3>
-            <p>O elemento HTML &lt;img&gt; representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento &lt;figure&gt; e &lt;figcaption&gt;.</p>
-            <h4>Exemplo de uso:</h4>
-            <pre>
-                <div class="codigo">
-                    <code>
-                        &lt;figure&gt;
-                            &lt;img src="imagem.jpg" alt="Minha Figura"&gt;
-                            &lt;figcaption&gt;Informações da Figura&lt;/figcaption&gt;
-                        &lt;/figure&gt;
-                    </code>
-                </div>
-            </pre>
-            <figure class="imagem-web-design">
-                <img src="./imagens/web-design.jpg" alt="Ilustração de Web-Design" width="960">
-                <figcaption><a href="https://br.freepik.com/fotos-vetores-gratis/online-marketing" target="_blank">Online marketing foto criado por creativeart - br.freepik.com</a></figcaption>
-            </figure>
-        </div>
-    </body>
+        .imagem-web-design {
+            margin: 0;
+        }
+
+        figcaption {
+            font-size: 10px;
+        }
+
+        .footer{
+            margin-top: 20px;
+            text-align: center;
+            background-color: #ffc400;
+            font-size: small;
+            height: 50px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <header>
+                <h1 style="text-align: center; color: #0000FF">Hello, World!</h1>
+            </header>
+            <section>
+                <h2>Quando esta página da Web foi criada?</h2>
+                <p>Verifique o <strong>título da página</strong> para obter a <em>resposta</em>.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum lobortis cursus. Sed interdum eleifend neque eget molestie. Integer molestie, sem quis placerat iaculis, nunc tortor aliquet elit, vel malesuada nulla ex venenatis odio. Aliquam quis sapien nisi. Donec efficitur hendrerit tempus. Mauris at lorem eu lectus dignissim blandit. Vestibulum quis massa mollis, pellentesque neque quis, elementum eros. In magna elit, finibus non enim non, volutpat interdum sem. Cras eu ultricies justo, sed aliquet sapien.</p>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            <section>
+                <article>
+                    <h2>Os elementos HTML utilizados nesta página até agora foram:</h2>
+                    <p>
+                        <ul>
+                            <li>&lt;!DOCTYPE html&gt;</li>
+                            <li>&lt;html&gt;</li>
+                            <li>&lt;head&gt;</li>
+                            <li>&lt;title&gt;</li>
+                            <li>&lt;style&gt;</li>
+                            <li>&lt;body&gt;</li>
+                            <li>&lt;div&gt;</li>
+                            <li>&lt;h1&gt;</li>
+                            <li>&lt;h2&gt;</li>
+                            <li>&lt;p&gt;</li>
+                            <li>&lt;strong&gt;</li>
+                            <li>&lt;em&gt;</li>
+                            <li>&lt;ul&gt;</li>
+                            <li>&lt;li&gt;</li>
+                        </ul>        
+                    </p>
+                </article>
+                <article>
+                    <h3>O elemento &lt;img&gt;</h3>
+                    <p>O elemento HTML &lt;img&gt; representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento &lt;figure&gt; e &lt;figcaption&gt;.</p>
+                    <h4>Exemplo de uso:</h4>
+                    <!-- <pre>
+                        <code>
+                            &lt;figure&gt;
+                                &lt;img src="imagem.jpg" alt="Minha Figura"&gt;
+                                &lt;figcaption&gt;Informações da Figura&lt;/figcaption&gt;
+                            &lt;/figure&gt;
+                        </code>
+                    </pre> -->
+                    <figure class="imagem-web-design">
+                        <img src="imagens/web-design.jpg" alt="Representação de Web-design" width="960">
+                        <figcaption><a href="https://br.freepik.com/fotos-vetores-gratis/online-marketing">Online marketing foto criado por creativeart - br.freepik.com</a></figcaption>
+                    </figure>
+                </article>
+            </section>
+        </main>
+    </div>
+    <div class="footer">
+        <footer>
+            Desenvolvido durante a Academia Atos .NET
+        </footer>
+    </div>
+</body>
 </html>
