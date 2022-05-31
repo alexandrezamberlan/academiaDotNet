@@ -127,6 +127,10 @@ Teoria ou no Paradigma da Orientação Objetos
                 Observações: Classe Usuário (construtor, getters/setters, gerarEmail); List; StreamWriter; StreamReader
 
 
+31/5 - Projeto de Banco de Dados
+     visão geral 
+     arquitetura de sistemas
+     modelagem de banco de dados
 
 
 
