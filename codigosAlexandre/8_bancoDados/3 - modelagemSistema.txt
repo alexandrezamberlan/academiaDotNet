@@ -1,0 +1,24 @@
+O sistema de .....
+O objetivo do sistema é gerenciar:
+    - usuários: ....
+    - ....
+
+
+Modelagem:
+ - Conceitual: livre de tecnologia (não pensa em banco ou SGBD, nem tipos)
+    - quando se utiliza?
+        - problema muito grande e a equipe de projeto tem várias pessoas
+        - quando não se tem o SGBD
+    - modelar entidades, atributos e relacionamentos
+
+- Lógica: já se pensa na programação ou SQL
+    - quando se utiliza?
+        - começar a converter o modelo conceitual em físico
+        - por exemplo,
+          atributo 'nome do cliente' vira nomeCliente
+          atributo 'curso do aluno' vira cursoAluno
+
+- Físico: dependente do banco e do SGBD, associado então à tecnologia
+
+
+Modelagem Lógica do problema:
