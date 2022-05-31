@@ -11,8 +11,6 @@ Sistema computacional de gestão de conhecimento (por exemplo, Sistema Gerencial
                 - linguagem de manipulação -> SQL -> create, drop, insert, update, select
                 - funcionalidades de segurança: criptografia, backup, ...; gestões de transações; 
 
-
-
                 máquina(s)/hardware -> sistema operacional -> serviços -> SGBD -> banco de dados -> arquivos 
 
       - Parte do sistema está em dispositivos móveis, ou desktops, ou notebooks com acesso via serviço HTTP (browser)
