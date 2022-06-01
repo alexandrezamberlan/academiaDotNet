@@ -1,4 +1,4 @@
-Sistema computacional de gestão de conhecimento (por exemplo, Sistema Gerencial Superliga Voleibol)
+Sistema computacional de gestão de conhecimento
   - Sistema Web/Móvel
     - Arquitetura Cliente-Servidor: 
       - Parte do sistema está na nuvem em uma máquina dita SERVIDORA
