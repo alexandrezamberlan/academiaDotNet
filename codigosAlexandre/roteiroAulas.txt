@@ -126,11 +126,80 @@ Teoria ou no Paradigma da Orientação Objetos
 
                 Observações: Classe Usuário (construtor, getters/setters, gerarEmail); List; StreamWriter; StreamReader
 
-
 31/5 - Projeto de Banco de Dados
      visão geral 
      arquitetura de sistemas
      modelagem de banco de dados
+
+02/6 - Projeto de Banco de dados
+    Antigamente, BD era o foco do sistema - Modelagem Entidade-relacionamento
+        - Aspectos estruturais -> atributos ou propriedades ou características ou variáveis de uma categora ou classe ou entidade ou tabela do BD
+            - categoria ou entidade ou tabela
+            - atributos 
+            - atributo(s) identificação (chave primária) -> garante a unicidade de um dado na entidade
+            - relacionamento entre entidades 
+                //modelo lógico
+                Funcionario (codigoFuncionario, nome, funcao, dataNascimento, dataAdmissao, endereco, email, fone)
+                    codigoFuncionario é chave-primária    
+
+                Dependente (codigoDependente, codigoFuncionario, nome)
+                    codigoDependente é chave-primária
+                    codigoFuncionario é chave-estrangeira e referencia Funcionario
+                
+                Funcionario 1..1 --------- 0..n Dependente
+
+                Funcionario (14053, 'Alexandre Zamberlan', 'Professor', '08/09/1974', '01/07/2099', ...)
+
+                Dependente (1000, 14053, 'Dante Zamberlan')
+                Dependente (1001, 14053, 'Tales Zamberlan')
+
+    Atualmente, o foco na construção dos sistemas é a modelagem de aspectos funcionais, e a partir daí chegamos no banco.
+
+            public class Funcionario {
+                int codigoFuncionario;
+                string nome;
+                string funcao;
+                DateTime dataNascimento;
+                DateTime dataAdmissao;
+                string endereco;
+                string email;
+                string fone;
+
+                public Funcionario() {
+
+                }
+
+                public Funcionario(int cod, string nome) {
+                    this.codigoFuncionario = cod;
+                    this.nome = nome;
+                }
+
+                //getters e setters
+            }
+
+            public class Dependente {
+                int codigoDependente;
+                Funcionario funcionario;
+                string nome;
+
+                public Dependente(int cod, Funcionario f, string n) {
+                    this.codigoDependente = cod;
+                    this.funcionario = f;
+                    this.nome = n;
+                }
+
+                //getters e setters
+            }
+
+            Existem 3 tipos de modelagem de BD:
+            1) modelagem conceitual -> diagramas em desenho -> dá ideia de entidades, atributos, atributos identificadores, relacionamentos
+            2) modelagem lógica -> dá ideia de tabela, atributos, chaves primária e estrangeira (relacionamento na prática)
+            3) modelagem física -> dá ideia do banco com seus atributos, tipos, restrições (constrains)
+
+            Foco da aula é tratar descrições de problemas, pensar OO, identificar as cardinalidades (), chaves-estrangeiras.
+
+
+                
 
 
 
