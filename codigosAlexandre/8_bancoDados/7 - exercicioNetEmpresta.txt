@@ -1,6 +1,6 @@
 NetEmpresta possui ao redor de 200.000 filmes (filmes, documentários, animes, ..), cujo empréstimo deve ser controlado.
 
-Cada filme possui um número. 
+Cada filme/documentario/anime possui um número. 
 Para cada filme, é necessário saber seu título e sua categoria (comédia, drama, aventura, ...).
 Cada filme recebe um identificador próprio. 
 
@@ -19,10 +19,10 @@ Um cliente pode ter vários empréstimos em um instante no tempo.
 Nota: são mantidos registros históricos de aluguéis.
 
 A partir desse relato construa:
-- modelo conceitual 
 - modelo lógico
 
 Indicando entidades, atributos, relacionamentos, cardinalidades
+
 
 Categoria(codCategoria, descricao, ativo). 
     codCategoria chave primaria

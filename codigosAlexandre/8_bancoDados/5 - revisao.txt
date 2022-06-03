@@ -35,7 +35,7 @@ Modelagem de Banco de Dados Relacional
         - se há atributos não nulos ou em branco
 
     - Conceitos:
-        - Entidade ou tabela
+        - Entidade ou tabela ou classe
         - Atributo: chaves primárias e estrangeiras
         - Relacionamento:
             - associação

@@ -11,7 +11,6 @@ Atuacao(codEngenheiro, codProjeto, funcao).
     codEngenheiro referencia Engenheiro
     codProjeto referencia Projeto    
 
-
 Medico(codMedico, nome). 
     codMedico chave primária
 
@@ -23,8 +22,7 @@ Consulta(codMedico, codPaciente, data, hora).
     codMedico referencia Medico
     codPaciente referencia Paciente
 
-
-
+===========================
 Cardinalidade 1:n
 
 Curso(codCurso, nome).  
@@ -34,6 +32,7 @@ Aluno(codAluno, nome, codCurso).
     codAluno chave primária
     codCurso referencia Curso
 
+Aluno 1..n ---- 1..1 Curso
 
 Financeira(codFinanceira,nome).
     codFinanceira chave primária
@@ -42,14 +41,19 @@ Venda(codVenda, codFinanceira, numeroParcelas, taxaJuro).
     codVenda chave primária
     codFinanceira referencia Financeira
 
-
+====
 Grupo(codGrupo, Nome). 
     codGrupo chave primária
 
 Empresa(numeroEmpresa, codGrupo).    
     numeroEmpresa chave primaria
-    codGrupo referencia Grupo
+    codGrupo referencia Grupo (fk)
 
 Filial(numeroFilial, codEmpresa).
-    numeroFilial chave primaria
-    codEmpresa referencia Empresa
+    numeroFilial chave primaria 
+    codEmpresa referencia Empresa (fk)
+
+
+Grupo 1..1 ----- 1..n Empresa 
+
+Empresa ----- n Filial
