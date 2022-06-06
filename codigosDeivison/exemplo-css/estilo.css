@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 30px auto;
+    position: relative;
+    display: none;
+}
+
+.filho1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.filho2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+h1 {
+    background-color: chocolate;
+    display: inline;
+}
+
+span {
+    background-color: blueviolet;
+    display: block;
+}
