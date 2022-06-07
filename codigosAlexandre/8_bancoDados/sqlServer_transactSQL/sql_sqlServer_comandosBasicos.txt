@@ -40,3 +40,18 @@ FROM nomeTabela;
 #Inserir dados numa tabela
 
 INSERT INTO nomeTabela VALUES (valorPrimeiroAtributo,valorSegundoAtributo,valorN_atributo);
+
+
+====================
+#Atualizar dados numa tabela
+
+UPDATE nomeTabela
+SET atributo = valorAtualizado
+WHERE condicao;
+
+
+====================
+#Apagar dados numa tabela
+
+DELETE FROM nomeTabela 
+WHERE condicao;
