@@ -29,7 +29,7 @@ CREATE TABLE Empregado (
   funcao VARCHAR(45) NULL,
   Departamento_idDepartamento INT NOT NULL,
   dataAdmissao DATE NOT NULL,
-  sala INT NULL,
+  salario INT NULL,
   comissao INT NULL,
   
   PRIMARY KEY (idEmpregado, Departamento_idDepartamento),
@@ -66,7 +66,8 @@ INSERT INTO Empregado VALUES('12','Antônio Fagundes','7','Vendedor','3','2002-1
 --comandos gerais em SQL
 
 -- Seleção de todos os campos (ou colunas) da tabela de Departamentos.
-SELECT  *  FROM  Departamento;
+SELECT  *  
+FROM  Departamento;
 
 -- where
 --
@@ -131,9 +132,9 @@ order by  Empregado.nome desc;
 --like                      com um padrao de caracteres
 --is null                   é um valor nulo
 
-SELECT  Empregado.nome, Empregado.sala
+SELECT  Empregado.nome, Empregado.salario
 FROM  Empregado
-WHERE  Empregado.sala BETWEEN  20  AND  30;
+WHERE  Empregado.salario BETWEEN  20  AND  30;
 
 SELECT  Empregado.nome,  Empregado.Departamento_idDepartamento
 FROM  Empregado
@@ -162,26 +163,26 @@ WHERE  Empregado.comissao  IS  NULL;
 --menores que 1000 ou maiores que 3500.
 
 
-SELECT Empregado.nome,  Empregado.sala
+SELECT Empregado.nome,  Empregado.salario
 FROM  Empregado
-WHERE  Empregado.sala  NOT  BETWEEN  1000  AND  3500;
+WHERE  Empregado.salario  NOT  BETWEEN  1000  AND  3500;
 
 -- Apresente todos os funcionários com salários
 --entre 3400 e 4000 e que sejam balconistas.
 
 -- Operadores  'AND' (E) e  'OR' (OU).
 --
-SELECT Empregado.nome, Empregado.sala, Empregado.funcao
+SELECT Empregado.nome, Empregado.salario, Empregado.funcao
 FROM  Empregado
-WHERE  Empregado.sala  BETWEEN  3400 AND 5000
+WHERE  Empregado.salario  BETWEEN  3400 AND 5000
 AND  Empregado.funcao =  'balconista';
 
 -- Apresente todos os funcionários com salários
 --entre 3400 e 4000 ou que sejam balconistas.
 
-SELECT Empregado.nome, Empregado.sala, Empregado.funcao
+SELECT Empregado.nome, Empregado.salario, Empregado.funcao
 FROM  Empregado
-WHERE Empregado.sala  BETWEEN  3400 AND 5000
+WHERE Empregado.salario  BETWEEN  3400 AND 5000
 OR  Empregado.funcao =  'balconista';
 
 -- Apresente o nome de todos os empregados em letras minúsculas.
@@ -258,17 +259,20 @@ WHERE  A.idGerente  = B.idEmpregado;
 
 -- INSERT
 
-INSERT INTO Departamento (DEPNUME,DEPNOME,DEPLOCA) VALUES (70,'PRODUCAO','RIO DE JANEIRO');
+INSERT INTO Departamento (idDepartamento, nome, localizacao, orcamento) VALUES ('70','PRODUCAO','RIO DE JANEIRO','1200');
 
 
 -- UPDATE
 
-UPDATE EMP SET Empregado.sala = Empregado.sala* 1.2 WHERE Empregado.sala< 1000;
+UPDATE Empregado 
+SET Empregado.salario = Empregado.salario* 1.2 
+WHERE Empregado.salario< 1000;
 
 
 -- DELETE
 
-DELETE FROM emp WHERE Empregado.sala > 5000;
+DELETE FROM Empregado
+WHERE Empregado.salario > 5000;
 
 
 -- Relacione todos os nomes de funcionários e seus respectivos
@@ -286,5 +290,5 @@ WHERE  10000 IN (SELECT Departamento.orcamento
 SELECT Departamento.nome
 FROM Departamento A
 WHERE EXISTS (SELECT * FROM Empregado
-              WHERE Empregado.sala > 3000 AND Empregado.Departamento_idDepartamento = A.idDepartamento);
+              WHERE Empregado.salario > 3000 AND Empregado.Departamento_idDepartamento = A.idDepartamento);
 
