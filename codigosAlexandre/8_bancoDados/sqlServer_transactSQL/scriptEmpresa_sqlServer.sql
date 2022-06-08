@@ -113,7 +113,7 @@ select distinct Empregado.funcao
 from Empregado;
 
 -- Apresente os nomes e funções da cada funcionário contidos
---na tabela empresa, porém classificados alfabeticamente (A..Z)
+--na tabela empregado, porém classificados alfabeticamente (A..Z)
 --e depois alfabeticamente invertido (Z..A).
 
 select Empregado.nome 'Nome do Empregado', Empregado.funcao 'Cargo'
@@ -245,8 +245,8 @@ HAVING COUNT(*) > 2;
 
 --neste caso, o uso de ALIAS é desnecessário
 SELECT A.nome, A.funcao, B.nome
-FROM Empregado A, Departamento B
-WHERE A.idDepartamento = B.Departamento_idDepartamento;
+FROM Empregado as A, Departamento as B
+WHERE B.idDepartamento = A.Departamento_idDepartamento;
 
 -- Liste os Códigos de Cada Funcionário, seus Nomes, seus Cargos
 --e o nome do Gerente ao qual este se relaciona.
