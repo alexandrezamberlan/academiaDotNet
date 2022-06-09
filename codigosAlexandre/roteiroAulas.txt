@@ -244,6 +244,16 @@ Teoria ou no Paradigma da Orientação Objetos
             grant 
             revoke
 
+================================================
+09/06 - Desafio da Garagem, tutorial Windows Form + OO + List + Arquivo, Exercícios de SQL 
+
+
+1) Construir um sistema em Visual Studio, C# e com Windows Form para entrada, saídas de veículos e as devidas cobranças.
+
+2) Tutorial - https://youtu.be/JgBqsIffWdU
+
+3) Exercícios SQL - academiaDotNet/codigosAlexandre/8_bancoDados/sqlServer_transactSQL/scriptEditora_sqlServer.sql
+
 
 
 
