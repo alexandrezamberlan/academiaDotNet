@@ -1,0 +1,17 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\bin\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\bin\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\bin\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\bin\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\bin\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\_10_Form_Lista_Arquivo_Update.Form_TelaPrincipal.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\refint\10_Form_Lista_Arquivo_Update.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\10_Form_Lista_Arquivo_Update.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\10_Form_Lista_Arquivo_Update\obj\Debug\net6.0-windows\ref\10_Form_Lista_Arquivo_Update.dll

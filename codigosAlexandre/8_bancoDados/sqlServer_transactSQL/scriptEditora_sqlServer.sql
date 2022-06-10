@@ -378,7 +378,7 @@ select round(avg(preco),2)
 from livro 
 where idEditora = 2;
 
-create view MediaPreco as
+create view MediaPreco as 
 select round(avg(preco),2) 
 from livro 
 where idEditora = 2;
@@ -423,7 +423,7 @@ WHERE semanasConsecutivas = (SELECT max(semanasConsecutivas)
 select livro.titulo, ranking_semanal.idLivro, ranking_semanal.semanasConsecutivas 
 from ranking_semanal, livro 
 where Livro.idLivro = Ranking_semanal.idLivro
-order by semanasConsecutivas desc limit 1 ;
+order by semanasConsecutivas desc limit 1;
 
 -- xxv.Mostre o nome dos autores dos livros que estavam no ranking da semana de 24/08/2003 a 30/08/2003;
 select distinct Autor.nome as autor 
