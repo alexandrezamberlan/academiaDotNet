@@ -6,5 +6,8 @@ namespace WinFormsAppDesafioGaragem
         {
             InitializeComponent();
         }
+
+        List<Veiculo> listaEntrada = new List<Veiculo>();
+        List<Veiculo> listaSaida = new List<Veiculo>();
     }
 }

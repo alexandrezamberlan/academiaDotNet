@@ -1,0 +1,17 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\bin\Debug\net6.0-windows\WinFormsAppDesafioGaragem.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\bin\Debug\net6.0-windows\WinFormsAppDesafioGaragem.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\bin\Debug\net6.0-windows\WinFormsAppDesafioGaragem.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\bin\Debug\net6.0-windows\WinFormsAppDesafioGaragem.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\bin\Debug\net6.0-windows\WinFormsAppDesafioGaragem.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.Form1.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\refint\WinFormsAppDesafioGaragem.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\WinFormsAppDesafioGaragem.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\WinFormsAppDesafioGaragem\obj\Debug\net6.0-windows\ref\WinFormsAppDesafioGaragem.dll
