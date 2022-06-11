@@ -1,6 +1,7 @@
 
 Roteiro das aulas
 
+================================================
 26/04
 https://github.com/alexandrezamberlan/academiaDotNet
 
@@ -19,13 +20,13 @@ Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
     - Visual Studio Code (VS Code)
     - Visual Studio
     
-
+================================================
 28/04
 Visual Studio 2022
 Github
 Exercícios de programação sequencial -> variáveis e instruções básicas (leitura, escrita e atribuição)
 
-
+================================================
 03/05
 Sites de apoio em C# - https://www.w3schools.com/cs/index.php
 Resolução de alguns exercícios de programação sequencial 
@@ -34,6 +35,7 @@ Boas práticas de desenvolvimento:
     2) acessar/ler/estudar documentação da tecnologia
     3) documentação ou comentários
 
+================================================
 10/05
 Desvio condicional ou instruções de controle por SELEÇÃO 
     - Material do professor Ricardo
@@ -47,6 +49,7 @@ Classes:
     - List
     - Math 
 
+================================================
 12/05
 Instruções de controle de repetição
 
@@ -72,12 +75,13 @@ C#
 
     }
 
+================================================
 18/5
 Drops em C#: List, Random, string e StreamReader
 
 Construção de programas para trabalhar com i) dados de glicemia; ii) dados de emails com listas e arquivos
 
-
+================================================
 19/5
 Refatorar o programa do email e gravar em arquivo (StreamWriter)
 
@@ -85,6 +89,7 @@ Teoria da Orientação a Objetos - Exemplo da Glicemia
     - como criar uma Classe
     - como instanciar um objeto dessa Classe
 
+================================================
 24/05
 Processo de avaliação 
 Documentação OO .net -> https://docs.microsoft.com/pt-br/dotnet/api/?view=net-6.0
@@ -102,7 +107,7 @@ Orientação a Objetos -> TERCEIRIZAÇÃO
 
 Exercícios: 6_exerciciosOrientacaoObjetos.txt
 
-
+================================================
 26/05
 Teoria ou no Paradigma da Orientação Objetos
     - Abordagem mais real -> TERCEIRIZAÇÃO
@@ -126,11 +131,13 @@ Teoria ou no Paradigma da Orientação Objetos
 
                 Observações: Classe Usuário (construtor, getters/setters, gerarEmail); List; StreamWriter; StreamReader
 
+================================================
 31/5 - Projeto de Banco de Dados
      visão geral 
      arquitetura de sistemas
      modelagem de banco de dados
 
+================================================
 02/6 - Projeto de Banco de dados
     Antigamente, BD era o foco do sistema - Modelagem Entidade-relacionamento
         - Aspectos estruturais -> atributos ou propriedades ou características ou variáveis de uma categora ou classe ou entidade ou tabela do BD
@@ -198,8 +205,57 @@ Teoria ou no Paradigma da Orientação Objetos
 
             Foco da aula é tratar descrições de problemas, pensar OO, identificar as cardinalidades (), chaves-estrangeiras.
 
+================================================
+07/06 - SQL
 
-                
+    Banco de Dados       -> SGBD / Engines                          -> SQL
+
+    Conjunto de arquivos -> Serviços                                -> Linguagem
+
+    Tabelas/Classe       -> Segurança/Consistênica/Integridade      -> DDL, DML, TCL, DCL
+
+    Chave Primária, Chave Estrangeira -> SGBD e SQL trabalham
+
+    Descritivo/requisitos -> modelagem lógica de banco de dados -> tabelas, chaves primárias, chaves estrangeiras, cardinalidade, relacionamento
+
+
+    LINGUAGEM SQL -> ANSI
+        MySQL - SQL ANSI
+        SQL Server - Transact SQL
+        Oracle - PL SQL
+
+    SQL -> linguagem em BD e SGBD
+        DDL - Data Definition Language (objetos)
+            create (banco de dados ou tabelas)
+            alter (banco de dados ou tabelas)
+            drop (banco de dados ou tabelas)
+
+        DML - Data Manipulation Language (dados)
+            insert (dados em tabelas)
+            update (dados em tabelas)
+            delete (dados em tabelas)
+            select (dados em tabelas)
+
+        TCL - Transaciton Control Language (transações -> insert, update, delete) - SGBD   
+            commit
+            rollback
+
+        DCL - Data Control Language (segurança para usuários)
+            grant 
+            revoke
+
+================================================
+09/06 - Desafio da Garagem, tutorial Windows Form + OO + List + Arquivo, Exercícios de SQL 
+
+
+1) Construir um sistema em Visual Studio, C# e com Windows Form para entrada, saídas de veículos e as devidas cobranças.
+
+2) Tutorial - https://youtu.be/JgBqsIffWdU
+
+3) Exercícios SQL - academiaDotNet/codigosAlexandre/8_bancoDados/sqlServer_transactSQL/scriptEditora_sqlServer.sql
+
+
+
 
 
 
