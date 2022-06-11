@@ -1,3 +1,45 @@
+//interface gráfica: 
+placa
+botao entrada -> textBox data textBox hora
+botao saida   -> 
+textBoxListaVeiculosEntrada
+textBoxListaVeiculosSaida
+MessageBox.Show() -> Placa tempoPermanecia valorCobrado
+
+//orientação a objetos
+Veiculo 
+   placa -> 7 caracteres -> verificar jaNaGaragem
+   dataEntrada 
+   horaEntrada
+   dataSaida
+   horaSaida
+   tempoPermanecia
+   valorCobrado
+
+
+   Veiculo(placa) {
+      ...
+      gerarDataHora()
+   }
+
+   Veiculo(placa, horaEntrada, horaSaida)
+
+   gerarData()
+
+   jaCadastrada(placa)
+
+   temLugar()
+
+//persistencia dos dados
+Persistencia   
+   lerArquivoVeiculosEntrada(listaEntrada)
+   lerArquivoVeiculosSaida(listaSaida)
+   gravarArquivoVeiculosEntrada(listaEntrada)
+   gravarArquivoVeiculosSaida(listaSaida)
+
+
+=================================================================
+
 Construir um sistema em Visual Studio, C# e com Windows Form para entrada, saídas de veículos e as devidas cobranças.
 
 A dinâmica de funcionamento da garagem é:
@@ -36,10 +78,10 @@ Para persistência dos dados vamos utilizar:
 
 2) Veículos que saíram da garagem: TextBox (multiplas linhas) + List<Veiculos> + arquivo (veiculosSaida.dat)
    O conteúdo do arquivo veiculosSaida.dat deve conter os dados organizados:
-   placa;tempoPermanecia;valorCobrado
+   placa;dataEntrada;horaEntrada;tempoPermanecia;valorCobrado
 
    Por exemplo, placa; 62 minutos ou 2 horas; 10 reais
-   IPL7154;62;10
+   IPL7154;11/06/2022;12:34;62;10
 
 Para o Classe Veiculo:
 atributos: placaVeiculo, dataEntrada, horaEntrada, tempoPermanencia, valorCobrado

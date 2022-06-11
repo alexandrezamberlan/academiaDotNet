@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\bin\Debug\net6.0\ConsoleApp_DuvidasAndre.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\bin\Debug\net6.0\ConsoleApp_DuvidasAndre.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\bin\Debug\net6.0\ConsoleApp_DuvidasAndre.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\bin\Debug\net6.0\ConsoleApp_DuvidasAndre.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\bin\Debug\net6.0\ConsoleApp_DuvidasAndre.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\refint\ConsoleApp_DuvidasAndre.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ConsoleApp_DuvidasAndre.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\ConsoleApp_DuvidasAndre\obj\Debug\net6.0\ref\ConsoleApp_DuvidasAndre.dll
