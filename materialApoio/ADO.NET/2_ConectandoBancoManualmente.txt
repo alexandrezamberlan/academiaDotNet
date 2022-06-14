@@ -23,7 +23,7 @@ Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
 
 6. No ListView dentro do Form, com botão direito adicionar as colunas da tabela que será trazida
 
-7. Criar um objeto string global
+7. Criar um objeto string global no Form
 private string conexaoString = ConfigurationManager.ConnectionStrings["GlicemiaDBString"].ConnectionString;
 
 8. No fonte Form, adicionar duas bibliotecas
