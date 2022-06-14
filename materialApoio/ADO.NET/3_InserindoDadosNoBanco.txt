@@ -9,7 +9,7 @@ valorGlicemia
 dataMedida
 idPaciente
 
-1. No Form, adicionar botão Cadastrar e renomear nome
+1. No Form, adicionar botão Cadastrar (renomear nome)
 
 2. No evento de clique do botão, adicionar código:
 
@@ -33,12 +33,45 @@ try
 
    //executar sentença SQL
    comando.ExecuteNonQuery();     
-   conexao.Close();   
-   carregarListView(); 
-
 }
 catch (Exception e)
 {
-
 }
 
+conexao.Close();   
+
+//recarregar ListView
+carregarListView(); 
+
+
+3. No Form, adicionar botão Remover (renomear nome)
+
+2. No evento de clique do botão, adicionar código:
+//lembre que o remover está relacionado com ListView e a região
+//selecionada
+
+SqlConnection conexao = new SqlConnection(conexaoString);
+conexao.Open();
+try 
+{
+   //MessageBox.Show(listView_medidasGlicemias.SelectedItems[0].Text);
+   int idMedidaGlicemia = int.Parse(listView_medidasGlicemias.SelectedItems[0].Text);
+   
+   //gerar sentenças SQL
+   string sqlTexto = "DELETE FROM MedidaGlicemia WHERE idMedidaGlicemia = @idMedidaGlicemia";
+
+   SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+   comando.Parameters.AddWithValeu("@idMedidaGlicemia",idMedidaGlicemia);
+
+   //executar sentença SQL
+   comando.ExecuteNonQuery();     
+}
+catch (Exception e)
+{
+}
+
+
+conexao.Close();
+
+//recarregar ListView
+carregarListView(); 
