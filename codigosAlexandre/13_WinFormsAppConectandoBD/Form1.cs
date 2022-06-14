@@ -10,15 +10,15 @@ namespace _13_WinFormsAppConectandoBD
             InitializeComponent();
         }
 
-
         private string conexaoString = ConfigurationManager.ConnectionStrings["GlicemiaDBString"].ConnectionString;
 
-        private void button_conectarBD_Click(object sender, EventArgs e)
+        private void carregarListView()
         {
+            SqlConnection conexao = new SqlConnection(conexaoString);
+            conexao.Open();
             try
             {
-                SqlConnection conexao = new SqlConnection(conexaoString);
-                conexao.Open();
+                //string sqlTexto = "SELECT [MedidaGlicemia].idMedidaGlicemia, [MedidaGlicemia].valorGlicemia, [MedidaGlicemia].dataMedida, [Paciente].nome FROM MedidaGlicemia, Paciente WHERE[MedidaGlicemia].idPaciente = [Paciente].idPaciente";
                 string sqlTexto = "SELECT idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente FROM MedidaGlicemia";
                 SqlCommand comando = new SqlCommand(sqlTexto, conexao);
 
@@ -30,19 +30,24 @@ namespace _13_WinFormsAppConectandoBD
                     listView_medidasGlicemias.Items.Add(leitor["idMedidaGlicemia"].ToString());
                     listView_medidasGlicemias.Items[i].SubItems.Add(leitor["valorGlicemia"].ToString());
                     listView_medidasGlicemias.Items[i].SubItems.Add(leitor["dataMedida"].ToString());
+                    //listView_medidasGlicemias.Items[i].SubItems.Add(leitor["nome"].ToString());
                     listView_medidasGlicemias.Items[i].SubItems.Add(leitor["idPaciente"].ToString());
                     i++;
                 }
-
                 conexao.Close();
+                button_conectarBD.Enabled = false;
                 MessageBox.Show("Banco conectado com sucesso!", "Atenção");
             }
-            catch (Exception)
+            catch (Exception e)
             {
-
-                MessageBox.Show("Problemas de conexão com o Banco de Dados " + e.ToString(),"Alerta");
+                MessageBox.Show("Problemas de conexão com o Banco de Dados " + e.ToString(), "Alerta");
             }
-            
+
+        }
+
+        private void button_conectarBD_Click(object sender, EventArgs e)
+        {
+            carregarListView();   
         }
     }
 }

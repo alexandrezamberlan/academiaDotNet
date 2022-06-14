@@ -1,20 +1,20 @@
 Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
 
-1. SQL Server Management Studio - Ter uma base de dados criada
+0. SQL Server Management Studio - Ter uma base de dados criada
 
-2. Visual Studio -> criar projeto Windows Form, renomear nome e titulo/texto
+1. Visual Studio -> criar projeto Windows Form, renomear nome e titulo/texto
 
-3. Visual Studio -> Tools -> Conect DataBase -> SPI01DT01\SQLEXPRESS (nome do servidor da máquina do professor)
+2. Visual Studio -> Tools -> Conect DataBase -> SPI01DT01\SQLEXPRESS (nome do servidor da máquina do professor)
 
 
 3. No arquivo App.config -> adicionar string de conexão (Caso o arquivo não exista, criá-lo)
-    <connectionStrings>
-		<add name="GlicemiaDBString"
-            connectionString="Data Source=localhost\SQLEXPRESS;
-            Initial Catalog=glicemia_db;
-            TrustServerCertificate=True;
-            Integrated security=True"/>
-	</connectionStrings>
+<connectionStrings>
+    <add name="GlicemiaDBString"
+        connectionString="Data Source=localhost\SQLEXPRESS;
+        Initial Catalog=glicemia_db;
+        TrustServerCertificate=True;
+        Integrated security=True"/>
+</connectionStrings>
   
 ==========
 4. Visual Studio -> janela do NuGet, selecionar Browser -> digitar  Microsoft.Data.SqlClient -> confirmar instalação

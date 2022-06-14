@@ -45,7 +45,7 @@
             this.columnHeader4});
             this.listView_medidasGlicemias.Location = new System.Drawing.Point(12, 12);
             this.listView_medidasGlicemias.Name = "listView_medidasGlicemias";
-            this.listView_medidasGlicemias.Size = new System.Drawing.Size(405, 182);
+            this.listView_medidasGlicemias.Size = new System.Drawing.Size(589, 182);
             this.listView_medidasGlicemias.TabIndex = 0;
             this.listView_medidasGlicemias.UseCompatibleStateImageBehavior = false;
             this.listView_medidasGlicemias.View = System.Windows.Forms.View.Details;
@@ -63,7 +63,7 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "Data Medição";
-            this.columnHeader3.Width = 100;
+            this.columnHeader3.Width = 150;
             // 
             // columnHeader4
             // 
@@ -72,7 +72,7 @@
             // 
             // button_conectarBD
             // 
-            this.button_conectarBD.Location = new System.Drawing.Point(161, 218);
+            this.button_conectarBD.Location = new System.Drawing.Point(12, 200);
             this.button_conectarBD.Name = "button_conectarBD";
             this.button_conectarBD.Size = new System.Drawing.Size(75, 23);
             this.button_conectarBD.TabIndex = 1;
@@ -84,9 +84,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 253);
+            this.ClientSize = new System.Drawing.Size(609, 383);
             this.Controls.Add(this.button_conectarBD);
             this.Controls.Add(this.listView_medidasGlicemias);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Gestão de medidas glicêmicas";
             this.ResumeLayout(false);

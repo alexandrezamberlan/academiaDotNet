@@ -1,0 +1,44 @@
+
+Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
+
+CONTINUANDO DO SISTEMA ANTERIOR
+
+0. No Form, adicionar labels e textBox para:
+idMedidaGlicemia
+valorGlicemia
+dataMedida
+idPaciente
+
+1. No Form, adicionar botão Cadastrar e renomear nome
+
+2. No evento de clique do botão, adicionar código:
+
+SqlConnection conexao = new SqlConnection(conexaoString);
+conexao.Open();
+try
+{
+   //capturar valores das variáveis
+   int idMedidaGlicemia = int.Parse(textBox_referente);
+   int valorGlicemia = int.Parse(textBox_referente);
+   string dataMedida = textBox_referente;
+   int idPaciente = int.Parse(textBox_referente);
+
+   //gerar sentenças SQL
+   string sqlTexto = "INSERT INTO MedidaGlicemia (idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente) VALUES(@idMedidaGlicemia, @valorGlicemia, @dataMedida, @idPaciente)";
+   SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+   comando.Parameters.AddWithValeu("@idMedidaGlicemia",idMedidaGlicemia);
+   comando.Parameters.AddWithValeu("@valorGlicemia",valorGlicemia);
+   comando.Parameters.AddWithValeu("@dataMedida",dataMedida);
+   comando.Parameters.AddWithValeu("@idPaciente",idPaciente);
+
+   //executar sentença SQL
+   comando.ExecuteNonQuery();     
+   conexao.Close();   
+   carregarListView(); 
+
+}
+catch (Exception e)
+{
+
+}
+
