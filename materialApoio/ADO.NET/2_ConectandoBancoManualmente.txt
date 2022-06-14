@@ -34,7 +34,7 @@ using Microsoft.Data.SqlClient;
 
 SqlConnection conexao = new SqlConnection(conexaoString);
 conexao.Open();
-string sqlTexto = "SELECT idGlicemia, valorGlicemia, dataMedida, idPaciente FROM MedidaGlicemia";
+string sqlTexto = "SELECT idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente FROM MedidaGlicemia";
 SqlCommand comando = new SqlCommand(sqlTexto, conexao);
 
 listView_medidasGlicemias.Items.Clear();
@@ -42,7 +42,7 @@ SqlDataReader leitor = comando.ExecuteReader();
 int i = 0;
 while (leitor.Read())
 {
-    listView_medidasGlicemias.Items.Add(leitor["idGlicemia"].ToString());
+    listView_medidasGlicemias.Items.Add(leitor["idMedidaGlicemia"].ToString());
     listView_medidasGlicemias.Items[i].SubItems.Add(leitor["valorGlicemia"].ToString());
     listView_medidasGlicemias.Items[i].SubItems.Add(leitor["dataMedida"].ToString());
     listView_medidasGlicemias.Items[i].SubItems.Add(leitor["idPaciente"].ToString());
