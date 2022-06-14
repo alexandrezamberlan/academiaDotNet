@@ -1,0 +1,40 @@
+Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
+
+1. SQL Server Management Studio - Ter uma base de dados criada
+
+2. Visual Studio -> criar projeto Windows Form, renomear nome e titulo/texto
+
+3. Visual Studio -> Tools -> NuGet Package Manager -> Manage NuGet Packages Solutions
+
+4. Visual Studio -> janela do NuGet, selecionar Browser -> digitar  Microsoft.Data.SqlClient -> confirmar instalação
+
+5. No Form, adicionar ListView, renomear nome, na propriedade view setar para details
+
+6. No ListView dentro do Form, com botão direito adicionar as colunas da tabela que será trazida
+
+7. No arquivo App.config -> adicionar string de conexão
+    <connectionStrings>
+        <add name="NomeBDString"
+            connectionString="Data Source=localhost\SQLEXPRESS;
+            Initial Catalog=NomeBD;
+            TrustServerCertificate=True;
+            Integrated security=True"/> 
+    </connectionStrings>
+
+8. No fonte Form, adicionar duas bibliotecas
+using System.Configuration;
+using Microsoft.Data.SqlClient;
+
+9. Criar um objeto string global
+private string conexaoString = ConfigurationManager.ConnectionStrings["NomeBDString que esta App.config"].ConnectionString;
+
+10. No evento de Load do Form ou em evento de botão conectar
+
+SqlConnection conexao = new SqlConnection(conexaoString);
+conexao.Open();
+string sqlTexto = "SELECT GlicemiaID, Valor, DataHora FROM GLICEMIA"; //exemplo
+SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+
+listViewGlicemias.Items.Clear(); //nome dado ao ListView
+
+conexao.Close();

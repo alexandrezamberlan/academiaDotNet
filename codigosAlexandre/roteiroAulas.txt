@@ -254,9 +254,22 @@ Teoria ou no Paradigma da Orientação Objetos
 
 3) Exercícios SQL - academiaDotNet/codigosAlexandre/8_bancoDados/sqlServer_transactSQL/scriptEditora_sqlServer.sql
 
+================================================
+11/06 - Desafio da Garagem
 
+    Form 
+    Classes Veiculo e Persistencia
 
+================================================
+14/06 - ADO.Net
 
+Tutorial ADO .Net C# - https://docs.microsoft.com/pt-br/visualstudio/data-tools/create-a-windows-form-to-search-data?view=vs-2022
+Criando um APP básico - https://docs.microsoft.com/pt-br/visualstudio/data-tools/create-a-simple-data-application-by-using-adonet?view=vs-2022
+
+ADO tecnologia Microsoft para conexões APPs - BD 
+SQLServer -> conexões remotas
+    -> Janela pesquisador de objetos do SQL Server . 
+       - está instalado como parte da carga de trabalho de armazenamento e processamento de dados no Instalador do Visual Studio.
 
 
 
