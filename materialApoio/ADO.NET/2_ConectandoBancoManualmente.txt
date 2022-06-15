@@ -6,7 +6,6 @@ Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
 
 2. Visual Studio -> Tools -> Conect DataBase -> SPI01DT01\SQLEXPRESS (nome do servidor da máquina do professor)
 
-
 3. No arquivo App.config -> adicionar string de conexão (Caso o arquivo não exista, criá-lo)
 <connectionStrings>
     <add name="GlicemiaDBString"

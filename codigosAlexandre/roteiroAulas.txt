@@ -274,6 +274,14 @@ Exemplo
 https://github.com/alexandrezamberlan/academiaDotNet/tree/main/codigosAlexandre/13_WinFormsAppConectandoBD
 
 
+APP Visual Studio Windows Form < ----  ADO ---- > BD < ----- > SGBD
+
+    ADO conecta APP com BD, entretanto, é preciso dominar SQL (select, insert, delete, update)
+
+
+
+
+
 
 
 

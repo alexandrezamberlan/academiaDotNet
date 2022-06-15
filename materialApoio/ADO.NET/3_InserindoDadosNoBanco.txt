@@ -26,10 +26,10 @@ try
    //gerar sentenças SQL
    string sqlTexto = "INSERT INTO MedidaGlicemia (idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente) VALUES(@idMedidaGlicemia, @valorGlicemia, @dataMedida, @idPaciente)";
    SqlCommand comando = new SqlCommand(sqlTexto, conexao);
-   comando.Parameters.AddWithValeu("@idMedidaGlicemia",idMedidaGlicemia);
-   comando.Parameters.AddWithValeu("@valorGlicemia",valorGlicemia);
-   comando.Parameters.AddWithValeu("@dataMedida",dataMedida);
-   comando.Parameters.AddWithValeu("@idPaciente",idPaciente);
+   comando.Parameters.AddWithValue("@idMedidaGlicemia",idMedidaGlicemia);
+   comando.Parameters.AddWithValue("@valorGlicemia",valorGlicemia);
+   comando.Parameters.AddWithValue("@dataMedida",dataMedida);
+   comando.Parameters.AddWithValue("@idPaciente",idPaciente);
 
    //executar sentença SQL
    comando.ExecuteNonQuery();     
@@ -61,7 +61,7 @@ try
    string sqlTexto = "DELETE FROM MedidaGlicemia WHERE idMedidaGlicemia = @idMedidaGlicemia";
 
    SqlCommand comando = new SqlCommand(sqlTexto, conexao);
-   comando.Parameters.AddWithValeu("@idMedidaGlicemia",idMedidaGlicemia);
+   comando.Parameters.AddWithValue("@idMedidaGlicemia",idMedidaGlicemia);
 
    //executar sentença SQL
    comando.ExecuteNonQuery();     
