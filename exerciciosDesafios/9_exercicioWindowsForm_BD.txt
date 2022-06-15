@@ -1,0 +1,17 @@
+A partir da dinâmica realizada na aula que construimos 13_WinFormsAppConectandoBD com os tutoriais
+2_ConectandoBancoManualmente e 3_InserindoDadosNoBanco, faça:
+
+1. No SQL Server Management Studio, crie o Banco de Dados usuarios_db (tenha como base o script scriptTSQL_bancoGlicemia.txt dentro do projeto 13_WinFormsAppConectandoBD)
+
+2. No SQL Server Management Studio, crie a tabela usuario(idUsuario, nomeCompleto, email)
+        idUsuario é chave primária
+
+3. No Visual Studio, crie projeto Windows Form acessando o banco de dados usuarios_db
+
+4. No Visual Studio, no Form, crie:
+    - ListView que contenha os dados da tabela usuario(idUsuario, nomeCompleto, email)
+    - Button Conectar -> que conecta com BD usuarios_db
+    - Button Adicionar -> que adiciona dados de um usuário
+    - TextBoxs para idUsuario, nome de usuário (email é gerado automaticamente pela concatenação de nome e sobrenome + @ufn.edu.br)
+    - Button Remover -> que remove um usuário a partir da seleção do idUsuario do ListView
+

@@ -3,6 +3,8 @@ Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
 
 CONTINUANDO DO SISTEMA ANTERIOR
 
+INSERINDO NO BD
+=======================
 0. No Form, adicionar labels e textBox para:
 idMedidaGlicemia
 valorGlicemia
@@ -44,9 +46,11 @@ conexao.Close();
 carregarListView(); 
 
 
+REMOVENDO NO BD
+=======================
 3. No Form, adicionar botão Remover (renomear nome)
 
-2. No evento de clique do botão, adicionar código:
+4. No evento de clique do botão, adicionar código:
 //lembre que o remover está relacionado com ListView e a região
 //selecionada
 
@@ -69,7 +73,6 @@ try
 catch (Exception e)
 {
 }
-
 
 conexao.Close();
 
