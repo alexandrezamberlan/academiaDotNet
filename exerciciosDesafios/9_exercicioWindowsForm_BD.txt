@@ -6,7 +6,7 @@ A partir da dinâmica realizada na aula que construimos 13_WinFormsAppConectando
 2. No SQL Server Management Studio, crie a tabela usuario(idUsuario, nomeCompleto, email)
         idUsuario é chave primária
 
-3. No Visual Studio, crie projeto Windows Form acessando o banco de dados usuarios_db
+3. No Visual Studio, crie projeto Windows Form acessando o banco de dados usuarios_db, crie uma classe Usuario que através desta cadastre os usuários.
 
 4. No Visual Studio, no Form, crie:
     - ListView que contenha os dados da tabela usuario(idUsuario, nomeCompleto, email)
