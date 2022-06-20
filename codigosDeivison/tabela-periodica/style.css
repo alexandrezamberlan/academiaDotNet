@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    background-color: white;
+    width: 1200px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, .1);
+}
+
+.topo {
+    position: fixed;
+    width: 80px;
+    height:40px;
+    right: 40px;
+    bottom: 20px;
+    font-size: .9em;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    background-color: #dee2e6;
+    border: 1px solid #ced4da;
+}
+
+.topo:hover {
+    background-color: #ced4da;
+}
+
+.tabela-titulo {
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 25px 0;
+    background-color: #e9ecef;
+}
+
+.tabela {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: 40px auto;
+}
+
+.separador {
+    height: 25px;
+    width: 100%;
+}
+
+.elemento {
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid;
+
+}
+
+.elemento:hover {
+    cursor: pointer;
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.vazio {
+    border-color: rgba(0, 0, 0, 0);
+    cursor: inherit !important;
+}
+
+.numero-atomico {
+    text-align: right;
+    font-size: .6em;
+}
+
+.simbolo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.elemento .simbolo img {
+    margin-top: 7px;
+}
+
+.nome {
+    text-align: center;
+    font-size: .6em;
+}
+
+.massa {
+    text-align: center;
+    font-size: .5em;
+    display: none;
+}
+
+.nao-metal {
+    background-color: #a1d344;
+    border-color: #91bd3d;
+}
+
+.metal-alcalino {
+    background-color: #f1b200;
+    border-color: #d8a000;
+}
+
+.metal-alcalino-terroso {
+    background-color: #eada00;
+    border-color: #d2c400;
+}
+
+.metal-transicao {
+    background-color: #eb8e8e;
+    border-color: #d38080;
+}
+
+.outro-metal {
+    background-color: #a2c7d3;
+    border-color: #91b3bd;
+}
+
+.semimetal {
+    background-color: #4db6ac;
+    border-color: #45a39a;
+}
+
+.halogenio {
+    background-color: #70cbeb;
+    border-color: #65b6d3;
+}
+
+.gas-nobre {
+    background-color: #3d9ee3;
+    border-color: #378ecc;
+}
+
+.lantanideo {
+    background-color: #90e3e9;
+    border-color: #81ccd1;
+}
+
+.actinidio {
+    background-color: #dcadd6;
+    border-color: #c69bc0;
+}
+
+h2 {
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #e9ecef;
+    border: 1px solid #e9ecef;
+    width: 1000px;
+    margin: 50px auto 0 auto;
+    text-indent: 20px;
+}
+
+.legenda {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e9ecef;
+    width: 970px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+.legenda-detalhes {
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    margin-right: 40px;    
+    border: 1px solid #CCC;
+    background-color: white;
+    position: relative;
+}
+
+.legenda-detalhes > .numero-atomico {
+    font-size: .8em;
+    margin: 8px;
+    line-height: 13px;
+}
+
+.legenda-detalhes > .simbolo {
+    font-size: 1.8em;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.legenda-detalhes > .nome {
+    font-size: 1.1em;
+}
+
+.legenda-cor {
+    width: 800px;
+    font-size: .8em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.legenda-cor ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.legenda-cor ul li {
+    list-style: none;
+    margin: 3px;
+}
+
+.quadrado-cor {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    border-radius: 3px;
+}
+
+table {
+    min-width: 1200px;
+    margin: 90px auto 20px auto;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-weight: 300;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+table th,
+table td {
+    padding: 15px 15px;
+}
+
+table thead {
+    background-color: #e9ecef;
+    font-size: .8em;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-size: .8em;
+}
