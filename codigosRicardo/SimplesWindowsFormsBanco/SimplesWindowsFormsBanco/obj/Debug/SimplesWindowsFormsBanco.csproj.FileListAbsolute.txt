@@ -9,3 +9,14 @@ C:\Users\Ricardo\source\repos\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\
 C:\Users\Ricardo\source\repos\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\bin\Debug\SimplesWindowsFormsBanco.pdb
 C:\Users\Ricardo\source\repos\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.exe
 C:\Users\Ricardo\source\repos\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.pdb
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\bin\Debug\SimplesWindowsFormsBanco.exe.config
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\bin\Debug\SimplesWindowsFormsBanco.exe
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\bin\Debug\SimplesWindowsFormsBanco.pdb
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.CadastroPessoa.resources
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.Properties.Resources.resources
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.exe
+C:\Users\alexz\academiaDotNet\codigosRicardo\SimplesWindowsFormsBanco\SimplesWindowsFormsBanco\obj\Debug\SimplesWindowsFormsBanco.pdb
