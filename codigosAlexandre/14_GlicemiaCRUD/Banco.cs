@@ -14,20 +14,25 @@ namespace _14_GlicemiaCRUD
     /// </summary>
     public class Banco
     {
-        string nomeBanco = "";
-        
         //private string stringConexao = "Data Source=localhost; Initial Catalog=ATOSUFN; User ID=usuario; password='senha';language=Portuguese";
         //string conexaoString = ConfigurationManager.ConnectionStrings["GlicemiaDBString"].ConnectionString;
+
+
+        /// <summary>
+        /// armazena o nome do banco ou do catálogo para usar no sistema
+        /// </summary>
+        string nomeBanco = "";
+        
 
         /// <summary>
         /// string de conexao com banco de dados 
         /// </summary>
-        string conexaoString;
+        string conexaoString = "";
 
         /// <summary>
         /// objeto de conexao com o banco de dados
         /// </summary>
-        private SqlConnection conexao = null;
+        private SqlConnection conexao;
 
         /// <summary>
         /// método para conectar ao banco, tendo como referência a conexaoString
@@ -52,7 +57,7 @@ namespace _14_GlicemiaCRUD
 
                 return conexao;
             }
-            catch (Exception ex)
+            catch (Exception)
             {                
                 return null;
             }
@@ -71,7 +76,17 @@ namespace _14_GlicemiaCRUD
             {
                 return;
             }
+        }     
+
+        public SqlDataReader executarConsulta(string sql)
+        {
+            SqlCommand command = new SqlCommand(sql, conexao);
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            return reader;
         }
+
 
         /// <summary>
         /// método que recebe uma string contendo comandos sql e os executa no banco conectado
@@ -90,7 +105,7 @@ namespace _14_GlicemiaCRUD
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
 
                 DataTable dt = new DataTable();
-                adapter.Fill(dt);//adaptar preenche o datatable com os dados do command
+                adapter.Fill(dt);//adapter preenche o datatable com os dados do command
 
                 return dt;
             }

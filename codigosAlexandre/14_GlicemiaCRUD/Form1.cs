@@ -1,3 +1,5 @@
+using Microsoft.Data.SqlClient;
+
 namespace _14_GlicemiaCRUD
 {
     public partial class Form1 : Form
@@ -16,6 +18,8 @@ namespace _14_GlicemiaCRUD
                     throw new Exception();
                 }
                 MessageBox.Show("Banco conectado: " + textBox_nomeBanco.Text, "Alerta");
+                //string sqlTexto = "SELECT idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente FROM MedidaGlicemia";
+
                 button_conectar.Enabled = false;   
                 button_desconectar.Enabled = true;
                 textBox_nomeBanco.Enabled = false;

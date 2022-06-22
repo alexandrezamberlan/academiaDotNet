@@ -75,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 107);
+            this.ClientSize = new System.Drawing.Size(365, 330);
             this.Controls.Add(this.textBox_nomeBanco);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_desconectar);
