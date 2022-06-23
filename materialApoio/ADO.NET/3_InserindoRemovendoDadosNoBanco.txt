@@ -51,8 +51,7 @@ REMOVENDO NO BD
 3. No Form, adicionar botão Remover (renomear nome)
 
 4. No evento de clique do botão, adicionar código:
-//lembre que o remover está relacionado com ListView e a região
-//selecionada
+//lembre que o remover está relacionado com ListView e a região selecionada
 
 SqlConnection conexao = new SqlConnection(conexaoString);
 conexao.Open();
@@ -78,3 +77,11 @@ conexao.Close();
 
 //recarregar ListView
 carregarListView(); 
+
+
+EDITANDO NO BD
+=======================
+5. No Form, adicionar botão Editar (renomear nome)
+
+6. No evento de clique do botão, adicionar código:
+//lembre que o editar está relacionado com ListView e a região selecionada
