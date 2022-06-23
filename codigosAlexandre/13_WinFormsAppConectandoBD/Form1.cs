@@ -74,17 +74,34 @@ namespace _13_WinFormsAppConectandoBD
                 string dataMedida = textBox_dataMedicao.Text;
                 int idPaciente = int.Parse(textBox_idPaciente.Text);
 
-                //gerar sentenças SQL
-                string sqlTexto = "INSERT INTO MedidaGlicemia (idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente) VALUES(@idMedidaGlicemia, @valorGlicemia, @dataMedida, @idPaciente)";
-                SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+                //gerar sentença SQL update
+                string sqlUpdate = "UPDATE MedidaGlicemia " +
+                    "SET valorGlicemia = @valorGlicemia," +
+                    "dataMedida = @dataMedida," +
+                    "idPaciente = @idPaciente" +
+                    "WHERE idMedidaGlicemia = @idMedidaGlicemia";
+                SqlCommand comando = new SqlCommand(sqlUpdate, conexao);
                 comando.Parameters.AddWithValue("@idMedidaGlicemia", idMedidaGlicemia);
                 comando.Parameters.AddWithValue("@valorGlicemia", valorGlicemia);
                 comando.Parameters.AddWithValue("@dataMedida", dataMedida);
                 comando.Parameters.AddWithValue("@idPaciente", idPaciente);
 
-                //executar sentença SQL
-                comando.ExecuteNonQuery();
+                int contadorLinhas = comando.ExecuteNonQuery();
+                MessageBox.Show("feito");
 
+                //executar sentença SQL                
+                if (contadorLinhas < 1) //se rodou o update, não faz o select
+                {
+                    //gerar sentenças SQL select
+                    string sqlTexto = "INSERT INTO MedidaGlicemia (idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente) VALUES(@idMedidaGlicemia, @valorGlicemia, @dataMedida, @idPaciente)";
+                    comando = new SqlCommand(sqlTexto, conexao);
+                    comando.Parameters.AddWithValue("@idMedidaGlicemia", idMedidaGlicemia);
+                    comando.Parameters.AddWithValue("@valorGlicemia", valorGlicemia);
+                    comando.Parameters.AddWithValue("@dataMedida", dataMedida);
+                    comando.Parameters.AddWithValue("@idPaciente", idPaciente);
+                    //executar sentença SQL
+                    comando.ExecuteNonQuery();
+                }
                 conexao.Close();
 
                 //recarregar ListView
