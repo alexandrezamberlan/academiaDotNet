@@ -174,7 +174,7 @@
             this.panel_campos.Enabled = false;
             this.panel_campos.Location = new System.Drawing.Point(12, 256);
             this.panel_campos.Name = "panel_campos";
-            this.panel_campos.Size = new System.Drawing.Size(332, 182);
+            this.panel_campos.Size = new System.Drawing.Size(237, 182);
             this.panel_campos.TabIndex = 10;
             // 
             // textBox_idPaciente
@@ -190,7 +190,7 @@
             this.button_gravar.Name = "button_gravar";
             this.button_gravar.Size = new System.Drawing.Size(75, 23);
             this.button_gravar.TabIndex = 10;
-            this.button_gravar.Text = "Gravar";
+            this.button_gravar.Text = "Salvar";
             this.button_gravar.UseVisualStyleBackColor = true;
             this.button_gravar.Click += new System.EventHandler(this.button_gravar_Click);
             // 

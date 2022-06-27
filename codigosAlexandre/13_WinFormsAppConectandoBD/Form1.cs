@@ -75,11 +75,7 @@ namespace _13_WinFormsAppConectandoBD
                 int idPaciente = int.Parse(textBox_idPaciente.Text);
 
                 //gerar sentença SQL update
-                string sqlUpdate = "UPDATE MedidaGlicemia " +
-                    "SET valorGlicemia = @valorGlicemia," +
-                    "dataMedida = @dataMedida," +
-                    "idPaciente = @idPaciente" +
-                    "WHERE idMedidaGlicemia = @idMedidaGlicemia";
+                string sqlUpdate = "UPDATE MedidaGlicemia SET valorGlicemia = @valorGlicemia, dataMedida = @dataMedida, idPaciente = @idPaciente WHERE idMedidaGlicemia = @idMedidaGlicemia";
                 SqlCommand comando = new SqlCommand(sqlUpdate, conexao);
                 comando.Parameters.AddWithValue("@idMedidaGlicemia", idMedidaGlicemia);
                 comando.Parameters.AddWithValue("@valorGlicemia", valorGlicemia);
