@@ -27,7 +27,7 @@ namespace WindowsFormsSerialização
             try
             {
                 string serializar = txbSerializar.Text;
-                FileStream fs = new FileStream(@"C:\testes\FabrícioLondero.data", FileMode.Create);
+                FileStream fs = new FileStream(@"C:\teste\dados.data", FileMode.Create);
                 BinaryFormatter bf = new BinaryFormatter();
                 bf.Serialize(fs, serializar);
                 fs.Close();
@@ -42,7 +42,7 @@ namespace WindowsFormsSerialização
 
         private void btnDesserializar_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:\testes\FabrícioLondero.data", FileMode.Open);
+            FileStream fs = new FileStream(@"C:\teste\dados.data", FileMode.Open);
             BinaryFormatter bf = new BinaryFormatter();
             string dadosDesserializados = (string)bf.Deserialize(fs);
             fs.Close();
@@ -56,10 +56,10 @@ namespace WindowsFormsSerialização
             {
                 Pessoa p = new Pessoa();
                 p.idade = 31;
-                p.nome = "Fabrício";
-                p.salario = 1000;
+                p.nome = "Maria de Fátima";
+                p.salario = 10450;
 
-                FileStream stream = new FileStream(@"C:\testes\pessoa1.data", FileMode.Create);
+                FileStream stream = new FileStream(@"C:\teste\pessoa1.data", FileMode.Create);
                 SoapFormatter soap = new SoapFormatter();
 
                 soap.Serialize(stream, p);
@@ -75,7 +75,7 @@ namespace WindowsFormsSerialização
 
         private void btnDesserializar2_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:\testes\pessoa1.data", FileMode.Open);
+            FileStream fs = new FileStream(@"C:\teste\pessoa1.data", FileMode.Open);
             Pessoa p = new Pessoa();
             SoapFormatter soap = new SoapFormatter();
             p = (Pessoa)soap.Deserialize(fs);
@@ -88,11 +88,11 @@ namespace WindowsFormsSerialização
             try
             {
                 Pessoa p = new Pessoa();
-                p.idade = 31;
-                p.nome = "Fabrício";
-                p.salario = 1000;
+                p.idade = 67;
+                p.nome = "Maria de Fátima";
+                p.salario = 12000;
 
-                FileStream stream = new FileStream(@"C:\testes\pessoa1.xml", FileMode.Create);
+                FileStream stream = new FileStream(@"C:\teste\pessoa1.xml", FileMode.Create);
                 XmlSerializer xml = new XmlSerializer(typeof(Pessoa));
 
                 xml.Serialize(stream, p);
@@ -101,12 +101,11 @@ namespace WindowsFormsSerialização
                 MessageBox.Show("Sucesso 1");
 
                 XmlSerializer serializer = new XmlSerializer(typeof(Pessoa));
-                StreamWriter writer = new StreamWriter(@"C:\testes\pessoa2.xml");
+                StreamWriter writer = new StreamWriter(@"C:\teste\pessoa2.xml");
                 serializer.Serialize(writer.BaseStream, p);
                 writer.Close();
 
                 MessageBox.Show("Sucesso 2");
-
             }
             catch (Exception ex)
             {
@@ -117,7 +116,7 @@ namespace WindowsFormsSerialização
         private void btnDesserializarXML_Click(object sender, EventArgs e)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(Pessoa));
-            StreamReader reader = new StreamReader(@"C:\testes\pessoa1.xml");
+            StreamReader reader = new StreamReader(@"C:\teste\pessoa1.xml");
             Pessoa deserialized = (Pessoa)serializer.Deserialize(reader.BaseStream);
             reader.Close();
         }
@@ -127,12 +126,12 @@ namespace WindowsFormsSerialização
             try
             {
                 Pessoa p = new Pessoa();
-                p.idade = 31;
-                p.nome = "Fabrício";
-                p.salario = 1000;
+                p.idade = 67;
+                p.nome = "Maria de Fátima";
+                p.salario = 12000;
 
                 JsonSerializer serializer = new JsonSerializer();
-                StreamWriter sw = new StreamWriter(@"C:\testes\pessoa.json");
+                StreamWriter sw = new StreamWriter(@"C:\teste\pessoa.json");
                 JsonWriter writer = new JsonTextWriter(sw);
                 serializer.Serialize(writer, p);
                 sw.Close();
@@ -149,10 +148,9 @@ namespace WindowsFormsSerialização
 
         private void btnDesserializarJson_Click(object sender, EventArgs e)
         {
-            string json = File.ReadAllText(@"C:\testes\pessoa.json");
+            string json = File.ReadAllText(@"C:\teste\pessoa.json");
 
-            Pessoa p = JsonConvert.DeserializeObject<Pessoa>(json);
-            
+            Pessoa p = JsonConvert.DeserializeObject<Pessoa>(json);            
         }
     }
 }
