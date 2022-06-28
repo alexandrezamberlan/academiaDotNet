@@ -26,11 +26,11 @@ namespace WindowsFormsSerialização
         {
             try
             {
-                string serializar = txbSerializar.Text;
-                FileStream fs = new FileStream(@"C:\teste\dados.data", FileMode.Create);
-                BinaryFormatter bf = new BinaryFormatter();
-                bf.Serialize(fs, serializar);
-                fs.Close();
+                string texto = txbSerializar.Text;
+                FileStream procurador = new FileStream(@"C:\teste\dados.data", FileMode.Create);
+                BinaryFormatter serializador = new BinaryFormatter();
+                serializador.Serialize(procurador, texto);
+                procurador.Close();
 
                 MessageBox.Show("Serializado com sucesso!");
             }
@@ -42,10 +42,10 @@ namespace WindowsFormsSerialização
 
         private void btnDesserializar_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:\teste\dados.data", FileMode.Open);
-            BinaryFormatter bf = new BinaryFormatter();
-            string dadosDesserializados = (string)bf.Deserialize(fs);
-            fs.Close();
+            FileStream procurador = new FileStream(@"C:\teste\dados.data", FileMode.Open);
+            BinaryFormatter serializador = new BinaryFormatter();
+            string dadosDesserializados = (string)serializador.Deserialize(procurador);
+            procurador.Close();
 
             txbDesserializar.Text = dadosDesserializados;
         }
@@ -55,17 +55,17 @@ namespace WindowsFormsSerialização
             try
             {
                 Pessoa p = new Pessoa();
-                p.idade = 31;
+                p.idade = 67;
                 p.nome = "Maria de Fátima";
-                p.salario = 10450;
+                p.salario = 12000;
 
-                FileStream stream = new FileStream(@"C:\teste\pessoa1.data", FileMode.Create);
-                SoapFormatter soap = new SoapFormatter();
+                FileStream procurador = new FileStream(@"C:\teste\pessoaSOAP.xml", FileMode.Create);
+                SoapFormatter serializadorSOAP = new SoapFormatter();
 
-                soap.Serialize(stream, p);
-                stream.Close();
+                serializadorSOAP.Serialize(procurador, p);
+                procurador.Close();
 
-                MessageBox.Show("Sucesso");
+                MessageBox.Show("Sucesso para serializar SOAP");
             }
             catch (Exception ex)
             {
@@ -75,12 +75,12 @@ namespace WindowsFormsSerialização
 
         private void btnDesserializar2_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:\teste\pessoa1.data", FileMode.Open);
+            FileStream procurador = new FileStream(@"C:\teste\pessoaSOAP.xml", FileMode.Open);
             Pessoa p = new Pessoa();
-            SoapFormatter soap = new SoapFormatter();
-            p = (Pessoa)soap.Deserialize(fs);
+            SoapFormatter serializadorSOAP = new SoapFormatter();
+            p = (Pessoa)serializadorSOAP.Deserialize(procurador);
 
-            fs.Close();
+            procurador.Close();
         }
 
         private void btnSerializarXML_Click(object sender, EventArgs e)
@@ -92,20 +92,14 @@ namespace WindowsFormsSerialização
                 p.nome = "Maria de Fátima";
                 p.salario = 12000;
 
-                FileStream stream = new FileStream(@"C:\teste\pessoa1.xml", FileMode.Create);
-                XmlSerializer xml = new XmlSerializer(typeof(Pessoa));
+                FileStream procurador = new FileStream(@"C:\teste\pessoa1.xml", FileMode.Create);
+                XmlSerializer serializadorXML = new XmlSerializer(typeof(Pessoa));
 
-                xml.Serialize(stream, p);
-                stream.Close();
+                serializadorXML.Serialize(procurador, p);
+                procurador.Close();
 
-                MessageBox.Show("Sucesso 1");
+                MessageBox.Show("Sucesso para serializar com XML");
 
-                XmlSerializer serializer = new XmlSerializer(typeof(Pessoa));
-                StreamWriter writer = new StreamWriter(@"C:\teste\pessoa2.xml");
-                serializer.Serialize(writer.BaseStream, p);
-                writer.Close();
-
-                MessageBox.Show("Sucesso 2");
             }
             catch (Exception ex)
             {
@@ -115,10 +109,13 @@ namespace WindowsFormsSerialização
 
         private void btnDesserializarXML_Click(object sender, EventArgs e)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Pessoa));
-            StreamReader reader = new StreamReader(@"C:\teste\pessoa1.xml");
-            Pessoa deserialized = (Pessoa)serializer.Deserialize(reader.BaseStream);
-            reader.Close();
+            XmlSerializer serializadorXML = new XmlSerializer(typeof(Pessoa));
+            StreamReader procurador = new StreamReader(@"C:\teste\pessoa1.xml");
+            Pessoa p = (Pessoa)serializadorXML.Deserialize(procurador.BaseStream);
+            //codigo para exibir os dados da pessoa deserializada
+            MessageBox.Show("Nome: " + p.nome + " Idade: " + p.idade + " Salário: " + p.salario);
+
+            procurador.Close();
         }
 
         private void btnSerializarJson_Click(object sender, EventArgs e)
@@ -130,14 +127,14 @@ namespace WindowsFormsSerialização
                 p.nome = "Maria de Fátima";
                 p.salario = 12000;
 
-                JsonSerializer serializer = new JsonSerializer();
-                StreamWriter sw = new StreamWriter(@"C:\teste\pessoa.json");
-                JsonWriter writer = new JsonTextWriter(sw);
-                serializer.Serialize(writer, p);
-                sw.Close();
-                writer.Close();
+                JsonSerializer serializadorJSON = new JsonSerializer();
+                StreamWriter procurador = new StreamWriter(@"C:\teste\pessoa.json");
+                JsonWriter escritorJSON = new JsonTextWriter(procurador);
+                serializadorJSON.Serialize(escritorJSON, p);
+                procurador.Close();
+                escritorJSON.Close();
 
-                MessageBox.Show("Sucesso");
+                MessageBox.Show("Sucesso para serializar com JSON");
 
             }
             catch (Exception ex)
@@ -150,7 +147,9 @@ namespace WindowsFormsSerialização
         {
             string json = File.ReadAllText(@"C:\teste\pessoa.json");
 
-            Pessoa p = JsonConvert.DeserializeObject<Pessoa>(json);            
+            Pessoa p = JsonConvert.DeserializeObject<Pessoa>(json);
+            //codigo para exibir os dados da pessoa deserializada
+            MessageBox.Show("Nome: " + p.nome + " Idade: " + p.idade + " Salário: " + p.salario);
         }
     }
 }
