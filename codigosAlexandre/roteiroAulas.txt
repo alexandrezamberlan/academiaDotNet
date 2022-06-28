@@ -278,8 +278,17 @@ APP Visual Studio Windows Form < ----  ADO ---- > BD < ----- > SGBD
 
     ADO conecta APP com BD, entretanto, é preciso dominar SQL (select, insert, delete, update)
 
+================================================
+21/6 - Atos Day
 
+================================================
+23/6 - Trabalho ADO Ricardo e ajuda nos desafios anteriores
 
+================================================
+28/6 - Serialização
+Material do professor Ricardo Frohlich na pasta materialApoio
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/serialization/
 
 
 
