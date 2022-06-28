@@ -1,0 +1,14 @@
+1) Criar um formulário com Windows Form para serializar (3 formas importantes: xml, soap e json) dados de pacientes
+Classe Paciente 
+    string nome
+    DateTime dataNascimento
+    string cpf
+
+No formulário, o usuário vai preencher textboxs dos dados de pacientes n vezes necessárias. 
+Sugestão: armazenar os dados dos pacientes em uma lista ou dataGrid e só depois depositar/serializar xml, soap e json
+
+
+2) Criar um segundo formulário com Windows Form que abre os arquivos (3 formas: xml, soap e json) com
+dados de pacientes. Pode ser um arquivo por vez ou um formulário por serializador.
+
+Uma vez aberto o(s) arquivo(s), popular os dados serializados em um dataGrid ou listView
