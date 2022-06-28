@@ -290,6 +290,9 @@ Material do professor Ricardo Frohlich na pasta materialApoio
 
 https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/serialization/
 
+Códigos de estudo (github professor Ricardo Frohlich):
+https://github.com/ricardosma/WindowsFormsSerializacao
+
 
 
 
