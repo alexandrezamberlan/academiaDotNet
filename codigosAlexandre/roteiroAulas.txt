@@ -286,13 +286,23 @@ APP Visual Studio Windows Form < ----  ADO ---- > BD < ----- > SGBD
 
 ================================================
 28/6 - Serialização
-Material do professor Ricardo Frohlich na pasta materialApoio
+Material do professor Ricardo Frohlich na pasta materialApoio -> Serialização.pdf
 
 https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/serialization/
 
 Códigos de estudo (github professor Ricardo Frohlich):
 https://github.com/ricardosma/WindowsFormsSerializacao
 
+
+SOAP vs REST 
+    - SOAP + XML + W3C -> WEBSERVICES (SOAP é ultrapassada)
+        - arquitetura cliente-servidor
+        
+
+    - REST + JSON -> WEBSERVICES
+        - arquitetura cliente-servidor
+            - servidor e cliente são transparentes ao outro
+        - C# -> System.Text.Json -> JsonSerializer
 
 
 
