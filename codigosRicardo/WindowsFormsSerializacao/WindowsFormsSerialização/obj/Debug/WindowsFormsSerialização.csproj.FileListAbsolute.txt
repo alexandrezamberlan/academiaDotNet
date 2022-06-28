@@ -1,0 +1,14 @@
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\bin\Debug\WindowsFormsSerialização.exe.config
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\bin\Debug\WindowsFormsSerialização.exe
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\bin\Debug\WindowsFormsSerialização.pdb
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.Form1.resources
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.Properties.Resources.resources
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.csproj.CopyComplete
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.exe
+C:\Users\alexz\academiaDotNet\codigosRicardo\WindowsFormsSerializacao\WindowsFormsSerialização\obj\Debug\WindowsFormsSerialização.pdb

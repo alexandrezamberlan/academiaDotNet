@@ -19,7 +19,7 @@ namespace WinFormsAppBancoExemplo
         {
             InitializeComponent();
         }   
-        private string conexaoString = "Data Source=localhost\\TEW_SQLEXPRESS;Initial Catalog=glicemia_db;TrustServerCertificate=True;Integrated Security=True";
+        private string conexaoString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=glicemia_db;TrustServerCertificate=True;Integrated Security=True";
 
         private void limparCampos()
         {
