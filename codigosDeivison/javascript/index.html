@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+        integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Exemplos de JavaScript</title>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="p-5 mb-4 bg-dark text-white rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">JavaScript - Exemplos</h1>
+                <p class="col-md-8 lead">Página com algumas das diversas utilizações para a linguagem de script em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 1</h2>
+                <p class="col-md-8 lead">Ao clicar no botão, o navegador exibirá um alerta para o usuário.</p>
+            </div>
+            <button type="button" class="btn btn-primary" id="btn-exibir-alerta">Exibir alerta</button>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 2</h2>
+                <p class="col-md-8 lead" id="p-texto">Ao clicar no botão, o texto deste parágrafo será substituído.</p>
+            </div>
+            <button type="button" class="btn btn-warning" id="btn-substituir-texto">Substituir texto</button>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3" id="exemplo-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 3</h2>
+                <p class="col-md-8 lead">O "Exemplo 3" será ocultado assim que o botão for pressionado.</p>
+            </div>
+            <button type="button" class="btn btn-danger" id="btn-ocultar">Ocultar exemplo</button>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 4</h2>
+                <p class="col-md-8 lead">Os botões "ligam" e "desligam" da lâmpada.
+                    <img class="lampada" src="images/lamp-off.png" width="64">
+                </p>
+                <div class="btn-group" role="group">
+                    <button id="btn-on" type="button" class="btn btn-outline-success">On</button>
+                    <button id="btn-off" type="button" class="btn btn-outline-danger">Off</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 5</h2>
+                <p class="col-md-8 lead">O console do navegador imprime a área de um círculo com raio 3.</p>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 6</h2>
+                <p class="col-md-8 lead">A mensagem do card abaixo é dinamicamente alterada de acordo com o dia da semana em que a página foi carregada.</p>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                  Hoje é <span class="dia-semana"></span>. E isso é legal, não é!?
+                </div>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h2 class="display-6 fw-bold">Exemplo 7</h2>
+                <p class="col-md-8 lead">Converte a temperatura em grau celcius para farenheit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
