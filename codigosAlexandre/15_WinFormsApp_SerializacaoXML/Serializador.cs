@@ -18,13 +18,13 @@ namespace _15_WinFormsApp_SerializacaoXML
             try
             {
                 FileStream procurador = new FileStream(@"C:\teste\pacientes.xml", FileMode.Create);
-                XmlSerializer serializadorXML = new XmlSerializer(typeof(Paciente));
 
-                foreach (Paciente p in lista)
-                {
-                    serializadorXML.Serialize(procurador, p);
-                }
-               
+                //atencao: preparando o serializador para receber uma lista
+                XmlSerializer serializadorXML = new XmlSerializer(typeof(List<Paciente>));
+
+                //serializador recebendo uma lista
+                serializadorXML.Serialize(procurador, lista);
+                
                 procurador.Close();
 
                 MessageBox.Show("Sucesso para serializar com XML","Alerta");
@@ -40,15 +40,23 @@ namespace _15_WinFormsApp_SerializacaoXML
         {
             try
             {
-                XmlSerializer serializadorXML = new XmlSerializer(typeof(Paciente));
-                StreamReader procurador = new StreamReader(@"C:\teste\pacientes.xml");
+  
+                using (var procurador = new StreamReader(@"C:\teste\pacientes.xml"))
+                {
+                    //atenção: preparando o serializador para receber uma lista
+                    XmlSerializer serializadorXML = new XmlSerializer(typeof(List<Paciente>));
 
-                Paciente p = (Paciente)serializadorXML.Deserialize(procurador);    
-                
-                procurador.Close();
+                    //serializador guardando dados do arquivo xml na lista
+                    lista = (List<Paciente>)serializadorXML.Deserialize(procurador);
+                }
 
-                MessageBox.Show("Sucesso para deserializar com XML " + p.Nome + " - " + p.Cpf, "Alerta");
+                string resposta = "";
+                foreach (Paciente i in lista)
+                {
+                    resposta = resposta + i.Nome + "\n";
+                }
 
+                MessageBox.Show(resposta, "Alerta");
             }
             catch (Exception ex)
             {
