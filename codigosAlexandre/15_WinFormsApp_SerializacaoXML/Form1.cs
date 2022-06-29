@@ -25,17 +25,26 @@ namespace _15_WinFormsApp_SerializacaoXML
         {
             if (saoValidosCampos())
             {
-                Paciente p = new Paciente(textBox_nomePaciente.Text.ToUpper(), DateTime.Parse(textBox_dataNascimento.Text), textBox_cpf.Text);
-                if (Paciente.jaCadastrado(pacientes, p.Nome))
+                try
                 {
-                    MessageBox.Show("Paciente já cadastrado", "Alerta");
-                } else
-                {
-                    pacientes.Add(p);
-                    MessageBox.Show("Paciente cadastrado com sucesso", "Alerta");
-                }
+                    Paciente p = new Paciente(textBox_nomePaciente.Text.ToUpper(), DateTime.Parse(textBox_dataNascimento.Text), textBox_cpf.Text);
+                    if (Paciente.jaCadastrado(pacientes, p.Nome))
+                    {
+                        MessageBox.Show("Paciente já cadastrado", "Alerta");
+                    }
+                    else
+                    {
+                        pacientes.Add(p);
+                        MessageBox.Show("Paciente cadastrado com sucesso", "Alerta");
+                    }
 
-                limpaCampos();
+                    limpaCampos();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Data inválida", "Alerta");
+                }
+                
             } else
             {
                 MessageBox.Show("Todos os campos precisam ser preenchidos", "Alerta");
@@ -46,7 +55,8 @@ namespace _15_WinFormsApp_SerializacaoXML
         {
             if (pacientes.Count > 0)
             {
-                Serializador.serializarXML(pacientes);
+                Serializador.serializarXML(pacientes, @"C:\teste\pacientes.xml");
+                textBox_conteudoArquivo.Text = Arquivo.lerArquivo(@"C:\teste\pacientes.xml");
             } else
             {
                 MessageBox.Show("Lista de pacientes vazia!","Alerta");
@@ -55,7 +65,7 @@ namespace _15_WinFormsApp_SerializacaoXML
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Serializador.deserializarXML(pacientes);
+            Serializador.deserializarXML(pacientes, @"C:\teste\pacientes.xml");
         }
     }
 }

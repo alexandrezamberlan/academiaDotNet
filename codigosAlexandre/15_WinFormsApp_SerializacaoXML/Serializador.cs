@@ -13,11 +13,11 @@ namespace _15_WinFormsApp_SerializacaoXML
 {
     internal class Serializador
     {
-        public static void serializarXML(List<Paciente> lista)
+        public static void serializarXML(List<Paciente> lista, string dadosArquivo)
         {
             try
             {
-                FileStream procurador = new FileStream(@"C:\teste\pacientes.xml", FileMode.Create);
+                FileStream procurador = new FileStream(@dadosArquivo, FileMode.Create);
 
                 //atencao: preparando o serializador para receber uma lista
                 XmlSerializer serializadorXML = new XmlSerializer(typeof(List<Paciente>));
@@ -36,18 +36,18 @@ namespace _15_WinFormsApp_SerializacaoXML
             }
         }
 
-        public static void deserializarXML(List<Paciente> lista)
+        public static void deserializarXML(List<Paciente> lista, string dadosArquivo)
         {
             try
             {
-  
-                using (var procurador = new StreamReader(@"C:\teste\pacientes.xml"))
+                using (var procurador = new StreamReader(@dadosArquivo))
                 {
                     //atenção: preparando o serializador para receber uma lista
                     XmlSerializer serializadorXML = new XmlSerializer(typeof(List<Paciente>));
 
                     //serializador guardando dados do arquivo xml na lista
-                    lista = (List<Paciente>)serializadorXML.Deserialize(procurador);
+                    lista.Clear();
+                    lista.AddRange( (List<Paciente>)serializadorXML.Deserialize(procurador) );
                 }
 
                 string resposta = "";

@@ -37,6 +37,7 @@
             this.button_gravar = new System.Windows.Forms.Button();
             this.button_serializar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox_conteudoArquivo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -117,11 +118,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textBox_conteudoArquivo
+            // 
+            this.textBox_conteudoArquivo.Enabled = false;
+            this.textBox_conteudoArquivo.Location = new System.Drawing.Point(12, 153);
+            this.textBox_conteudoArquivo.Multiline = true;
+            this.textBox_conteudoArquivo.Name = "textBox_conteudoArquivo";
+            this.textBox_conteudoArquivo.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox_conteudoArquivo.Size = new System.Drawing.Size(419, 231);
+            this.textBox_conteudoArquivo.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(441, 396);
+            this.Controls.Add(this.textBox_conteudoArquivo);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_serializar);
             this.Controls.Add(this.button_gravar);
@@ -149,5 +161,6 @@
         private Button button_gravar;
         private Button button_serializar;
         private Button button1;
+        private TextBox textBox_conteudoArquivo;
     }
 }
