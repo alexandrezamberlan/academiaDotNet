@@ -1,0 +1,17 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\bin\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\bin\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\bin\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\bin\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\bin\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\_15_WinFormsApp_SerializacaoXML.Form1.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\refint\15_WinFormsApp_SerializacaoXML.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\15_WinFormsApp_SerializacaoXML.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\15_WinFormsApp_SerializacaoXML\obj\Debug\net6.0-windows\ref\15_WinFormsApp_SerializacaoXML.dll
