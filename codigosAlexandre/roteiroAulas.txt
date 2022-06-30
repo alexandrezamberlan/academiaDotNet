@@ -325,8 +325,16 @@ SOAP vs REST
         - C# -> System.Text.Json -> JsonSerializer
 
 
+================================================
+30/6 - Serialização
+    Exercícios:
+        Windows Form + List ou DataGrid + Serializador ou Deserializador (binário ou xml ou soap ou json)
+            Arquivo serializado 'substitui' o banco de dados 
 
-
+================================================
+05/7 - Entity Framework
+    ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e gerados automaticamente)
+    
 
 
 
