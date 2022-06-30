@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Soap;
+using Newtonsoft.Json;
 
-namespace _16_WinFormsAppSerializadorSOAP
+namespace _16_WinFormsAppSerializadorSOAP { 
     public class Serializador
     {
         public static void serializarXML(List<Paciente> lista, string dadosArquivo)
@@ -62,5 +63,50 @@ namespace _16_WinFormsAppSerializadorSOAP
                 MessageBox.Show("Erro: " + ex.Message);
             }
         }
+
+    public static void serializarSOAP(List<Paciente> lista, string dadosArquivo)
+    {
+        try
+        {
+            FileStream procurador = new FileStream(@dadosArquivo, FileMode.Create);
+           
+            SoapFormatter serializadorSOAP = new SoapFormatter();
+
+            serializadorSOAP.Serialize(procurador, lista);
+            procurador.Close();
+
+            MessageBox.Show("Sucesso para serializar com XML", "Alerta");
+
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Erro: " + ex.Message);
+        }
     }
+
+    public static void deserializarSOAP(List<Paciente> lista, string dadosArquivo)
+    {
+        try
+        {
+            using (var procurador = new FileStream(@dadosArquivo, FileMode.Open))
+            {
+                SoapFormatter serializadorSOAP = new SoapFormatter();
+                lista.Clear();
+                lista.AddRange((List<Paciente>)serializadorSOAP.Deserialize(procurador));
+            }
+
+            string resposta = "";
+            foreach (Paciente i in lista)
+            {
+                resposta = resposta + i.Nome + "\n";
+            }
+
+            MessageBox.Show(resposta, "Alerta");
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Erro: " + ex.Message);
+        }
+    }
+}
 }

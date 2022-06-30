@@ -55,8 +55,8 @@ namespace _16_WinFormsAppSerializadorSOAP
         {
             if (pacientes.Count > 0)
             {
-                Serializador.serializarXML(pacientes, @"C:\teste\pacientes.xml");
-                textBox_conteudoArquivo.Text = Arquivo.lerArquivo(@"C:\teste\pacientes.xml");
+                Serializador.serializarSOAP(pacientes, @"C:\teste\pacientes.soap");
+                textBox_conteudoArquivo.Text = Arquivo.lerArquivo(@"C:\teste\pacientes.soap");
             } else
             {
                 MessageBox.Show("Lista de pacientes vazia!","Alerta");
@@ -65,7 +65,7 @@ namespace _16_WinFormsAppSerializadorSOAP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Serializador.deserializarXML(pacientes, @"C:\teste\pacientes.xml");
+            Serializador.deserializarSOAP(pacientes, @"C:\teste\pacientes.soap");
         }
     }
 }

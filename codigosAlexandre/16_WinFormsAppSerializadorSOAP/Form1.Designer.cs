@@ -144,7 +144,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Serialização XML";
+            this.Text = "Serialização SOAP";
             this.ResumeLayout(false);
             this.PerformLayout();
 
