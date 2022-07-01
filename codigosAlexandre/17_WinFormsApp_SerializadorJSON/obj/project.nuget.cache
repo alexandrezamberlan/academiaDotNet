@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JOPePLvSZXXJWanRxqP6aDBpAStppM6rqNFMc0tdnrQcM3fgwhtKaf4nPE8IxTCyxMDW7RK+kBK2B/OGA2K96Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexz\\academiaDotNet\\codigosAlexandre\\17_WinFormsApp_SerializadorJSON\\17_WinFormsApp_SerializadorJSON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\alexz\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}
