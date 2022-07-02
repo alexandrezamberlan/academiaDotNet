@@ -37,3 +37,12 @@ const data = new Date();
 const dia = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
 
 document.querySelector('.dia-semana').innerHTML = dia[data.getDay()];
+
+
+// Exemplo 7
+document.getElementById('converter-temperatura').onclick = function () {
+    const inputCelsius = document.querySelector('input[type=number]').value;
+    const temperaturaFahrenheit = inputCelsius * 1.8 + 32;
+    const inputFahrenheit = document.querySelector('input[type=text]');
+    inputFahrenheit.value = temperaturaFahrenheit;
+}
