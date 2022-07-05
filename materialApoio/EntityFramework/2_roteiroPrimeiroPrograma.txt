@@ -2,6 +2,7 @@
 1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
 2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
 3) https://github.com/Ernakh/EntityFrameworkCodeFirst - Code First - Fabrício Londero
+4) Gerenciando Migrações - https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=vs
 
 ===================================================
 
