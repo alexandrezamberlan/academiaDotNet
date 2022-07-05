@@ -11,5 +11,20 @@
     Uma vez feito isso, o Entity é instalado e todos os pacotes que geram dependência, inclusive Sql 
 
 4 - Criar a classe(s) de contexto para a(s) classe(s) criada(s)
+    Em geral, usa-se nome da classe seguido da palavra Context, por exemplo, classe Paciente, logo
+    classe PacienteContext
+
+    Lembre de herdar a classe criada ao DbContext e importar System.Data.Entity
+    
+    Por exemplo:
+
+    public class PacienteContext : DbContext
+    {
+        public DbSet<Paciente> Pacientes { get; set; }   
+    }
+
+
+
+
 
 
