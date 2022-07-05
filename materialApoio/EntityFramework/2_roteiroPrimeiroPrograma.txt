@@ -3,7 +3,6 @@
 2 - Criar os modelos OO para a solução
     adicionar as classes necessárias
 
-
 3 - Instalar o pacote/biblioteca no projeto criado 
     VS -> Menu Ferramentas/Tools -> Gerenciador de Pacotes NuGet -> CONSOLE ou Gráfico
         instalar no console -> Install-Package EntityFramework
@@ -23,7 +22,30 @@
         public DbSet<Paciente> Pacientes { get; set; }   
     }
 
-    na classe Program,
+5 - VS -> Menu -> Ferramentas  -> Gerenciador de Pacotes NuGet -> CONSOLE
+
+    0. (caso não esteja habilitado) habilitar migrações -> rodar no console -> Enable-Migrations
+
+    1. caso adicione uma classe - > rodar no console -> Add-Migration CreateNomeClasse
+        Por exemplo - > Add-Migration CreatePaciente
+        
+    2. aplicar a migração -> Update-Database (como se executasse um script de migração criado)
+
+
+    3. caso adicione um novo atributo - > rodar no console -> Add-Migration NomeClasseAtributo
+        Por exemplo - > Add-Migration PacienteCPF
+        
+    4. aplicar a migração -> Update-Database (como se executasse um script de migração criado)
+
+    
+ATENÇÃO: O Entity cria nomes automáticos para as tabelas e muitas vezes, cria nomes no plural usando
+regras da língua inglesa. Fique atento.
+
+Por exemplo, classe Medicamento -> tabela Medicamentoes 
+
+
+6 - 
+na classe Program,
 
 using (var contexto = new PacienteContext())
 {
@@ -37,40 +59,12 @@ using (var contexto = new PacienteContext())
     Console.WriteLine("Feito " + quantidade_pacientes);
 }
 
-5 - Caso adicionar uma nova classe ou alterar atributos de alguma já existente, lembrar:
+7 - Caso adicionar uma nova classe ou alterar atributos de alguma já existente, lembrar:
     -> de executar a migração, uma vez que o banco não reflete mais o que está no modelo de classes OO 
 
-    VS -> Menu -> Ferramentas  -> Gerenciador de Pacotes NuGet -> CONSOLE
-
-    habilitar migrações -> rodar no console -> Enable-Migrations
-
-    1. caso adicione um novo atributo - > rodar no console -> Add-Migration NomeClasseAtributo
-        Por exemplo - > Add-Migration PacienteCPF
-        
-    2. aplicar a migração -> Update-Database (como se executasse um script de migração criado)
-
-    ============
-
-     1. caso adicione uma nova classe - > rodar no console -> Add-Migration NomeClasse
-        Por exemplo - > Add-Migration Medicamento
-        
-    2. aplicar a migração -> Update-Database (como se executasse um script de migração criado)
-
-ATENÇÃO: O Entity cria nomes automáticos para as tabelas e muitas vezes, cria nomes no plural usando
-regras da língua inglesa. Fique atento.
-
-Por exemplo, classe Medicamento -> tabela Medicamentoes 
-
-
-
-6 - O Entity permite criar buscas:
+8 - O Entity permite criar buscas:
     var consulta = contexto.Pacientes.Where( p => p.Nome.Contains("Alexandre")).toString();
     var listaPacientes = contexto.Pacientes.Where( p => p.Nome.Contains("Alexandre")).toList();
-
-
-6 - 
-
-    
 
 
 
