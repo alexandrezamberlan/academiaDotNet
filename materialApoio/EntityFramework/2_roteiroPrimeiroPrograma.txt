@@ -1,3 +1,10 @@
+0) https://www.devmedia.com.br/entity-framework-tutorial/27764#Code - Visão geral EF
+1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
+2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
+3) https://github.com/Ernakh/EntityFrameworkCodeFirst - Code First - Fabrício Londero
+
+===================================================
+
 1 - Criar projeto Visual Studio -> Console application
 
 2 - Criar os modelos OO para a solução

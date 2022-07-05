@@ -2,6 +2,7 @@ Entity Framework - EF
     ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e gerados automaticamente)
 
     Sugestão de vídeos aulas:
+    0) https://www.devmedia.com.br/entity-framework-tutorial/27764#Code - Visão geral EF
     1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
     2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
     3) https://github.com/Ernakh/EntityFrameworkCodeFirst - Code First - Fabrício Londero
