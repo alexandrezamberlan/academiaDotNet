@@ -1,0 +1,15 @@
+1 - Criar projeto Visual Studio -> Console application
+
+2 - Criar os modelos OO para a solução
+    adicionar as classes necessárias
+
+
+3 - Instalar o pacote/biblioteca no projeto criado 
+    VS -> Menu Ferramentas/Tools -> Gerenciador de Pacotes NuGet -> CONSOLE ou Gráfico
+        instalar no console -> Install-Package EntityFramework
+        
+    Uma vez feito isso, o Entity é instalado e todos os pacotes que geram dependência, inclusive Sql 
+
+4 - Criar a classe(s) de contexto para a(s) classe(s) criada(s)
+
+
