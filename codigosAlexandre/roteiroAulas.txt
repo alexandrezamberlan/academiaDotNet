@@ -336,8 +336,8 @@ SOAP vs REST
     ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e gerados automaticamente)
 
     Sugestão de vídeos aulas:
-    1) https://www.youtube.com/watch?v=QjetGzyyOHI - Danilo Aparecido 
-    2)
+    1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
+    2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
 
     Estratégias:
 
@@ -348,6 +348,8 @@ SOAP vs REST
                 - NuGet ou Console
                 - Instalando pacotes 
                 - Realizando migrações (conversões de OO para BD)
+
+        
 
     
         PROJETO OO <-> ORM <-> BD
