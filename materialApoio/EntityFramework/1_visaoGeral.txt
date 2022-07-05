@@ -4,6 +4,7 @@ Entity Framework - EF
     Sugestão de vídeos aulas:
     1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
     2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
+    3) https://github.com/Ernakh/EntityFrameworkCodeFirst - Code First - Fabrício Londero
 
     Estratégias:
 

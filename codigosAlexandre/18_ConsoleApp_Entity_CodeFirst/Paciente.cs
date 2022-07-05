@@ -13,6 +13,8 @@ namespace _18_ConsoleApp_Entity_CodeFirst
         public string Nome { get; set; }    
         public string Email { get; set; }
 
+        public string CPF { get; set; } 
+
 
         public Paciente()
         {

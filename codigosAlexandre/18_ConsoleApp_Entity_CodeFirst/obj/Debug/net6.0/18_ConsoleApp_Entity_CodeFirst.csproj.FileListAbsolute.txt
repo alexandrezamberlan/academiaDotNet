@@ -34,3 +34,8 @@ C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\ob
 C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\18_ConsoleApp_Entity_CodeFirst.pdb
 C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\18_ConsoleApp_Entity_CodeFirst.genruntimeconfig.cache
 C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\ref\18_ConsoleApp_Entity_CodeFirst.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\_18_ConsoleApp_Entity_CodeFirst.Migrations.InitialCreate.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\18_ConsoleApp_Entity_CodeFirst.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\_18_ConsoleApp_Entity_CodeFirst.Migrations.PacienteCPF.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\_18_ConsoleApp_Entity_CodeFirst.Migrations.Medicamento.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18_ConsoleApp_Entity_CodeFirst\obj\Debug\net6.0\_18_ConsoleApp_Entity_CodeFirst.Migrations.Medicamento1.resources
