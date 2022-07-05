@@ -332,9 +332,25 @@ SOAP vs REST
             Arquivo serializado 'substitui' o banco de dados 
 
 ================================================
-05/7 - Entity Framework
+05/7 - Entity Framework - EF
     ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e gerados automaticamente)
+
+    Sugestão de vídeos aulas:
+    1) https://www.youtube.com/watch?v=QjetGzyyOHI - Danilo Aparecido 
+    2)
+
+    Estratégias:
+
+        1 - Database first  -> foco no banco
+        2 - Model first
+        3 - Code first      -> foco na OO -> pensa no modelo OO e o banco é gerado pelo ORM (migração)
+            - gerenciador de pacotes
+                - NuGet ou Console
+                - Instalando pacotes 
+                - Realizando migrações (conversões de OO para BD)
+
     
+        PROJETO OO <-> ORM <-> BD
 
 
 
