@@ -10,5 +10,6 @@ namespace _18_ConsoleApp_Entity_CodeFirst
     public class PacienteContext : DbContext
     {
         public DbSet<Paciente> Pacientes { get; set; }   
+        public DbSet<Medicamento> Medicamentos { get; set; }
     }
 }

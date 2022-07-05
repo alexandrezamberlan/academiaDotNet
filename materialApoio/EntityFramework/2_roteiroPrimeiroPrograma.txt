@@ -23,8 +23,24 @@
         public DbSet<Paciente> Pacientes { get; set; }   
     }
 
+    na classe Program,
 
+using (var contexto = new PacienteContext())
+{
+    Console.WriteLine("Inciando o programa!!"); //a primeira vez, vai criar o banco 
+    var quantidade_pacientes = contexto.Pacientes.Count();
 
+    contexto.Pacientes.Add(new Paciente("Alexandre", "alexz@ufn.edu.br"));
+
+    contexto.SaveChanges();
+
+    Console.WriteLine("Feito " + quantidade_pacientes);
+}
+
+5 - Caso adicionar uma nova classe, lembrar:
+    1. de adicionar na classe de contexto -> por exemplo, public DbSet<Medicamento> Medicamentos { get; set; }
+    2. executar a migração, uma vez que o banco não reflete mais o que está no modelo de classes OO 
+    
 
 
 
