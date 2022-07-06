@@ -1,5 +1,6 @@
 Entity Framework - EF
-    ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e gerados automaticamente)
+    ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e 
+    gerados automaticamente)
 
     Sugestão de vídeos aulas:
     0) https://www.devmedia.com.br/entity-framework-tutorial/27764#Code - Visão geral EF
@@ -9,7 +10,6 @@ Entity Framework - EF
     4) Gerenciando Migrações - https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=vs
 
     Estratégias:
-
         1 - Database first  -> foco no banco
         2 - Model first
         3 - Code first      -> foco na OO -> pensa no modelo OO e o banco é gerado pelo ORM (migração)
