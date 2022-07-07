@@ -141,8 +141,6 @@ foreach (var item in listaModelos)
     Console.WriteLine(item.Nome);
 }
 
-
-
 //Veiculo veiculo = new Veiculo() { Nome = "Honda Civic", Modelo = listaModelos.First(), Ano = 2011 };
 //veiculo.Salvar();
 

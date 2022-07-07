@@ -349,13 +349,31 @@ SOAP vs REST
                 - Instalando pacotes 
                 - Realizando migrações (conversões de OO para BD)
 
-        
-
-    
         PROJETO OO <-> ORM <-> BD
 
 
+================================================
+07/7 - EntityFramework e Relacionamento entre Objetos (classes)
+    - identificador
+    - chave estrangeira
 
+https://www.youtube.com/watch?v=OtLjyRoAkDA&t=1448s - Tutorial sobre o assunto
+
+
+1 - Criar projeto Visual Studio -> Console application ou Windows Form
+
+2 - Criar os modelos OO para a solução
+    
+    Carro 0..n    -----    1..1 Modelo
+
+    Vamos trabalhar com a estratégia CodeFirst 
+
+    ATENÇÃO AOS TÓPICOS DISCUTIDOS NO EXEMPLO:
+        - atributo ou método com a palavra-reservada VIRTUAL (uso do lazy load)
+            - associação em tempo de execução
+        - uso de collection (lista, dbset, ...)
+        - restrições de integridade (primary key e foreign key)
+        - migrações
 
 
 
