@@ -1,0 +1,17 @@
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\bin\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.exe
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\bin\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.deps.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\bin\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.runtimeconfig.json
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\bin\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\bin\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\_18a_WinFormsApp_Entity_CodeFirst.Form1.resources
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\refint\18a_WinFormsApp_Entity_CodeFirst.dll
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.pdb
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\18a_WinFormsApp_Entity_CodeFirst.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet\codigosAlexandre\18a_WinFormsApp_Entity_CodeFirst\obj\Debug\net6.0-windows\ref\18a_WinFormsApp_Entity_CodeFirst.dll

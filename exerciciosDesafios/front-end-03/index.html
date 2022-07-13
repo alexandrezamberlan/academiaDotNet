@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+        integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Exemplo | Formulário e JavaScript</title>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <h1>Formulário e JavaScript</h1>
+            <p class="lead">O formulário abaixo <strong>não irá enviar seus dados</strong>, apenas exemplifica o uso de diversos inputs e scripts JavaScript.</p>
+        </div>
+        <main>
+            <div class="container-fluid">
+                <form id="formulario">
+                    <section class="row g-3">
+                        <h2 class="mb-3 fs-4">Informações pessoais</h2>
+                        <div class="col-sm-6">
+                            <label for="nome" class="form-label">Nome <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="nome" pattern="^[A-Za-z]+$" title="Você deve informar um nome válido" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="sobrenome" class="form-label">Sobrenome <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="sobrenome" pattern="^[A-Za-z]+$" title="Você deve informar um sobrenome válido" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="email" class="form-label">E-mail <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="nome@dominio.com" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="login" class="form-label">Login</label>
+                            <input type="text" class="form-control" id="login" readonly>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="senha" class="form-label">Senha <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="senha">
+                        </div>
+                        <div class="col-md-2">
+                            <label for="cep" class="form-label">CEP</label>
+                            <input type="number" class="form-control" id="cep">
+                            <div id="cep-erro" class="form-text text-danger d-none">CEP não encontrado.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="endereco" class="form-label">Endereço</label>
+                            <input type="text" class="form-control" id="endereco">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="complemento" class="form-label">Complemento</label>
+                            <input type="text" class="form-control" id="complemento">
+                        </div>
+                        <div class="col-4">
+                            <label for="bairro" class="form-label">Bairro</label>
+                            <input type="text" class="form-control" id="bairro">
+                        </div>
+                        <div class="col-6">
+                            <label for="cidade" class="form-label">Cidade</label>
+                            <input type="text" class="form-control" id="cidade">
+                        </div>
+                        <div class="col-2">
+                            <label for="estado" class="form-label">Estado</label>
+                            <input type="text" class="form-control" id="estado">
+                        </div>
+                    </section>
+                    <hr class="my-4">
+                    <section class="row g-3">
+                        <h2 class="mb-2 fs-4">Informações profissionais</h2>
+                        <div class="col-md-6">
+                            <label for="github" class="form-label">Perfil no GitHub <span
+                                    class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-text">github.com/</span>
+                                <input type="text" class="form-control" id="github" placeholder="username" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="academia" class="form-label">Academia <span
+                                class="text-danger">*</span></label>
+                            <select class="form-select" id="academia" required>
+                                <option value="">Selecione...</option>
+                                <option value="dot-net">Academia Atos - .NET</option>
+                                <option value="java">Academia Atos - Java</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="professor" class="form-label">Professor <span
+                                class="text-danger">*</span></label>
+                            <select class="form-select" id="professor" required>
+                                <option value="">Selecione...</option>
+                                <option value="1">Alexandre Zamberlan</option>
+                                <option value="2">Deivison Pasa</option>
+                                <option value="3">Fabrício Tonetto</option>
+                                <option value="4">Herysson Figueiredo</option>
+                                <option value="5">Lucas Schlestein</option>
+                                <option value="6">Ricardo Frohlich</option>
+                            </select>
+                        </div>
+                    </section>
+                    <hr class="my-4">
+                    <section class="row g-3">
+                        <h2 class="mb-2 fs-4">Termos legais</h2>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="15" readonly>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, est id posuere mattis, dui nunc lacinia urna, ac vulputate ipsum augue vel enim. Sed malesuada a elit eu vehicula. Integer at metus bibendum, viverra nibh ut, laoreet lorem. Sed maximus hendrerit semper. Proin eget eros nec ante placerat malesuada. Aenean volutpat accumsan nulla, et sodales ex lobortis sed. Aliquam mattis nisi turpis, eu commodo nulla placerat in. Nulla sit amet euismod est. Nam lacinia, orci vel gravida gravida, mauris elit eleifend magna, a ullamcorper sapien nunc quis ex. Ut egestas rutrum sem in luctus. Sed cursus massa ut venenatis vestibulum.
+                            Nunc nec sapien at orci sodales condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed scelerisque aliquet velit, eleifend iaculis arcu consequat in. Maecenas finibus consequat tortor, nec fermentum mauris accumsan a. Aenean consequat, quam sed ultricies feugiat, arcu enim finibus tellus, sed venenatis ipsum lorem id velit. Vestibulum ut dolor ex. Maecenas finibus nisl ut leo lacinia, pulvinar laoreet risus posuere. Proin in accumsan mauris. Nulla gravida elit non lectus tristique, ut pharetra lectus ullamcorper. Nam in velit nisl. Praesent interdum urna ornare nisi congue aliquam. Fusce arcu mauris, mollis et tristique eget, tristique ut dui.
+                            Quisque sed volutpat odio. Sed ornare blandit lorem vel fringilla. Cras mi nisl, interdum quis molestie mattis, placerat in nisi. Proin mollis orci quis tortor sollicitudin, condimentum interdum odio accumsan. Maecenas eu ornare dolor, eget cursus magna. Vivamus condimentum, quam ac blandit volutpat, tortor lectus vehicula lacus, vitae pellentesque risus odio non arcu. Quisque ultrices non nibh id ullamcorper. Vivamus eget sagittis lacus. Suspendisse eu tortor et lectus convallis lobortis vitae id arcu. Nam dignissim nulla eget scelerisque cursus.
+                            In elit tellus, commodo ac ullamcorper eu, eleifend a quam. Praesent convallis neque eu felis porttitor, ac molestie risus laoreet. Vestibulum congue fringilla tortor, a tincidunt eros venenatis et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed feugiat ligula, ut ultricies dui. Morbi a eros orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus urna mi, non malesuada nunc iaculis elementum. Pellentesque ullamcorper sem sit amet diam tempus aliquam eu at dui. Nunc molestie, arcu id mollis tempor, tellus magna bibendum elit, ac varius velit elit id eros.
+                            Nulla gravida semper ante. Pellentesque nisi quam, suscipit sed viverra ut, commodo at tortor. Nulla volutpat molestie lacus, in pellentesque enim fringilla in. In sollicitudin sem venenatis iaculis sagittis. Maecenas et fermentum neque, vitae vestibulum enim. Ut id neque quis ante aliquam dapibus. Duis efficitur sollicitudin gravida. Maecenas metus tortor, maximus ut tempus at, ornare eu nulla. Donec lacus risus, sagittis ut venenatis ut, suscipit vitae erat. Mauris dui nisl, scelerisque et nisl id, volutpat tempus eros. Quisque dignissim justo pharetra venenatis ultrices. Nullam ullamcorper justo nec elit tristique, et dignissim erat ornare. Suspendisse erat massa, fermentum a convallis eu, dapibus eu nisl. Pellentesque aliquet semper augue at feugiat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rerum corrupti iste a aliquid soluta. Labore a mollitia quo porro quasi omnis, officiis commodi debitis repellat nihil, iste vero fugiat.</textarea>
+                            <div class="form-check mt-2">
+                                <input type="checkbox" class="form-check-input" id="termos" required>
+                                <label class="form-check-label" for="termos">Eu li e concordo os termos descritos
+                                    acima.</label>
+                            </div>
+                        </div>
+
+                        <div class="my-3">
+                            <div class="form-check">
+                                <input name="info" id="info-sim" type="radio" class="form-check-input" value="info-sim" checked>
+                                <label class="form-check-label" for="info-sim">Quero receber informações e novidades pelo
+                                    e-mail</label>
+                            </div>
+                            <div class="form-check">
+                                <input name="info" id="info-nao" type="radio" class="form-check-input" value="info-nao">
+                                <label class="form-check-label" for="info-nao">Não quero receber informações e noveidades
+                                    pelo e-mail</label>
+                            </div>
+                        </div>
+                    </section>
+                    <button class="w-100 btn btn-primary my-4" type="submit">Salvar</button>
+                </form>
+            </div>
+        </main>
+        <section id="tabela-dados" class="bg-white p-5 mb-5 d-none">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">DADOS SUBMETIDOS PELO FORMULÁRIO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Nome</th>
+                        <td id="t-nome"></td>
+                    </tr>
+                    <tr>
+                        <th>Sobrenome</th>
+                        <td id="t-sobrenome"></td>
+                    </tr>
+                    <tr>
+                        <th>E-mail</th>
+                        <td id="t-email"></td>
+                    </tr>
+                    <tr>
+                        <th>Login</th>
+                        <td id="t-login"></td>
+                    </tr>
+                    <tr>
+                        <th>Senha</th>
+                        <td id="t-senha"></td>
+                    </tr>
+                    <tr>
+                        <th>CEP</th>
+                        <td id="t-cep"></td>
+                    </tr>
+                    <tr>
+                        <th>Endereço</th>
+                        <td id="t-endereco"></td>
+                    </tr>
+                    <tr>
+                        <th>Complemento</th>
+                        <td id="t-complemento"></td>
+                    </tr>
+                    <tr>
+                        <th>Bairro</th>
+                        <td id="t-bairro"></td>
+                    </tr>
+                    <tr>
+                        <th>Cidade</th>
+                        <td id="t-cidade"></td>
+                    </tr>
+                    <tr>
+                        <th>Estado</th>
+                        <td id="t-estado"></td>
+                    </tr>
+                    <tr>
+                        <th>GitHub</th>
+                        <td id="t-github"></td>
+                    </tr>
+                    <tr>
+                        <th>Academia</th>
+                        <td id="t-academia"></td>
+                    </tr>
+                    <tr>
+                        <th>Professor</th>
+                        <td id="t-professor"></td>
+                    </tr>
+                    <tr>
+                        <th>Termos legais</th>
+                        <td id="t-termos"></td>
+                    </tr>
+                    <tr>
+                        <th>Informativo</th>
+                        <td id="t-info"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+
+</html>
